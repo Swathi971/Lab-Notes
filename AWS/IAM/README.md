@@ -4,7 +4,7 @@
 Home- Security Credentials- Assign MFA device->Select MFA device- Device name- OPPO-> MFA device options- Authenticator app- next
 <img src="img.png" alt="Home" width="500"/>
 <img src="img_1.png" alt="Home" width="500"/>
-<img src="img_2.png" alt="Home" width="500"/>
+<img src="img_2.png" alt="Home" width="400"/>
 If you want to remove MFA device-> Home- Security Credentials- Assign MFA device- Passkeys and security keys- Remove.
 
 * Click See a list of compatible applications- Virtual authenticator apps (Do not click it)- it is just an information:
