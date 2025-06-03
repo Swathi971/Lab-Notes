@@ -63,5 +63,7 @@ ___
 * Select- attach policy directly- ec2fullaccess-next
 <img src="img_13.png" alt="Home" width="500"/>
 
+<img src="img_15.png" alt="Home" width="500"/>
+
 
 
