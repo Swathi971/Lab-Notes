@@ -28,24 +28,23 @@ ___
 
 #### Creating IAM user account: 
 * Creating IAM user account and granting administrative permissions to the user and login to the IAM user for day-to-day activities. You should be in root user.
-* IAM- users- create user:
+* IAM- users- create user.
 
 <img src="img_7.png" alt="Home" width="500"/>
-* username- (testuser)- provide user access to aws console- Custom password-> disable the users must create a new password
+
+* username- (testuser)- provide user access to aws console- Custom password-> disable the users must create a new password.
 <img src="img_8.png" alt="Home" width="500"/>
 
 * Attach policy directly-> Permissions policies- AdministratorAccess- >next- >create user.
 <img src="img_9.png" alt="Home" width="500"/>
-Now I have created IAM user and I want to practice lab by logging in as IAM user:
+* Now I have created IAM user and I want to practice lab by logging in as IAM user:
 <img src="img_10.png" alt="Home" width="400"/>
-Now I have created IAM user and I want to practice lab by logging in as IAM user. 
-You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
+* You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
 <img src="img_12.png" alt="Home" width="400"/>
-IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia.
----
-
-#### IAM service
+* IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia.
+___
+### IAM service
 * Select-> I want to create an IAM user:
 <img src="img_14.png" alt="Home" width="500"/>
 * Select- attach policy directly- ec2fullaccess-next:
