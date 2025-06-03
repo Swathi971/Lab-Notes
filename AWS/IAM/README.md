@@ -1,18 +1,18 @@
 #### IAM- Identity and Access Management
 ##### Enabling MFA
-* ##### Login to AWS Console as a root user:
+##### Login to AWS Console as a root user:
 Home- Security Credentials
 
 <img src="img.png" alt="Home" width="500"/>
 
-* ##### Assign MFA device
+##### Assign MFA device
 <img src="img_1.png" alt="Home" width="500"/>
 
-* ##### Select MFA device- Device name- OPPO-> MFA device options- Authenticator app- next
+##### Select MFA device- Device name- OPPO-> MFA device options- Authenticator app- next
 <img src="img_2.png" alt="Home" width="400"/>
 If you want to remove MFA device-> Home- Security Credentials- Assign MFA device- Passkeys and security keys- Remove.
 
-* ##### Click See a list of compatible applications- Virtual authenticator apps (Do not click it)- it is just an information:
+##### Click See a list of compatible applications- Virtual authenticator apps (Do not click it)- it is just an information:
 <img src="img_4.png" alt="Home" width="400"/>
 <img src="img_3.png" alt="Home" width="500"/>
 
@@ -28,10 +28,11 @@ ___
 
 #### Creating IAM user account: 
 * Creating IAM user account and granting administrative permissions to the user and login to the IAM user for day-to-day activities. You should be in root user.
+##### Creating IAM User:
 * IAM- users- create user.
-
 <img src="img_7.png" alt="Home" width="500"/>
 
+##### Specify User details:
 * username- (testuser)- provide user access to aws console- Custom password-> disable the users must create a new password.
 <img src="img_8.png" alt="Home" width="500"/>
 
