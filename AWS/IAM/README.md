@@ -72,9 +72,11 @@ ___
 
 ##### Login as Devuser:
 <img src="img_17.png" alt="Home" width="300"/>
+
 * Set a newpassword:
 <img src="img_18.png" alt="Home" width="300"/>
-* Logged in as Devuser
+
+##### Logged in as Devuser
 <img src="img_19.png" alt="Home" width="500"/>
 
 
