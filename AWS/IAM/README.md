@@ -30,8 +30,13 @@ You will see this page after creating IAM user Retrieve password-> copy the sign
 <img src="img_11.png" alt="Home" width="500"/>
 <img src="img_12.png" alt="Home" width="500"/>
 IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia. 
+________
 
-
+#### IAM service
+* Select-> I want to create an IAM user:
+<img src="img_14.png" alt="Home" width="500"/>
+* Select- attach policy directly- ec2fullaccess-next:
+<img src="img_13.png" alt="Home" width="500"/>
 
 
 
