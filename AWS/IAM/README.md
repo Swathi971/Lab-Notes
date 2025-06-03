@@ -72,10 +72,10 @@ ___
 <img src="img_20.png" alt="Home" width="500"/>
 
 ##### Login as Devuser:
-<img src="img_17.png" alt="Home" width="300"/>
+<img src="img_17.png" alt="Home" width="200"/>
 
 ##### Set a newpassword:
-<img src="img_18.png" alt="Home" width="300"/>
+<img src="img_18.png" alt="Home" width="200"/>
 
 ##### Logged in as Devuser
 <img src="img_19.png" alt="Home" width="500"/>
