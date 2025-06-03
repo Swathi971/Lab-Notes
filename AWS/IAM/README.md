@@ -28,9 +28,9 @@ Now I have created IAM user and I want to practice lab by logging in as IAM user
 Now I have created IAM user and I want to practice lab by logging in as IAM user. 
 You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
-<img src="img_12.png" alt="Home" width="500"/>
-IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia. 
-________
+<img src="img_12.png" alt="Home" width="400"/>
+IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia.
+---
 
 #### IAM service
 * Select-> I want to create an IAM user:
