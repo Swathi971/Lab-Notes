@@ -1,14 +1,15 @@
 #### IAM- Identity and Access Management
 ##### Enabling MFA
 ##### Login to AWS Console as a root user:
-Home- Security Credentials
+* Home- Security Credentials
 
 <img src="img.png" alt="Home" width="500"/>
 
-##### Assign MFA device
+##### Assign MFA device:
 <img src="img_1.png" alt="Home" width="500"/>
 
-##### Select MFA device- Device name- OPPO-> MFA device options- Authenticator app- next
+##### Selecting MFA device
+* Device name- OPPO-> MFA device options- Authenticator app- next
 <img src="img_2.png" alt="Home" width="400"/>
 If you want to remove MFA device-> Home- Security Credentials- Assign MFA device- Passkeys and security keys- Remove.
 
@@ -35,13 +36,13 @@ ___
 ##### Specify User details:
 * username- (testuser)- provide user access to aws console- Custom password-> disable the users must create a new password.
 <img src="img_8.png" alt="Home" width="500"/>
-
+##### Set Permissions:
 * Attach policy directly-> Permissions policies- AdministratorAccess- >next- >create user.
 <img src="img_9.png" alt="Home" width="500"/>
-
+##### Logging in as IAM User:
 * Now I have created IAM user and I want to practice lab by logging in as IAM user:
 <img src="img_10.png" alt="Home" width="400"/>
-
+##### Sign in using an URL:
 * You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
 <img src="img_12.png" alt="Home" width="400"/>
