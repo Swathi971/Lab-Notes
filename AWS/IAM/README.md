@@ -1,4 +1,4 @@
-#### IAM- Identity Management Access
+#### IAM- Identity and Access Management
 ##### Enabling MFA
 * login to AWS Console as a root user:
 Home- Security Credentials- Assign MFA device->Select MFA device- Device name- OPPO-> MFA device options- Authenticator app- next
