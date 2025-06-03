@@ -19,6 +19,7 @@ If you want to remove MFA device-> Home- Security Credentials- Assign MFA device
 ##### Set up device:
 * Authenticator app- download the google app authenticator app in mobile- Open the app-> Click show QR code in laptop- scan the QR code using app- there is a 6-digit code after scanning in app- Enter the code in MFA Code 1 (Laptop)-> After 30 seconds you will see another code- enter it in MFA Code 2- Add MFA.
 <img src="img_6.png" alt="Home" width="400"/>
+
 ##### Sign in to the root user:
 * Now sign-out from your account- Sign in to the root user- Enter email address- MFA Code- submit-> There is no problem if password or email address is leaked because MFA code is needed to sign in.
 <img src="img_5.png" alt="Home" width="400"/>
