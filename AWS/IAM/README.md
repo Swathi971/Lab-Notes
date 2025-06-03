@@ -1,8 +1,8 @@
 #### IAM- Identity and Access Management
 ##### Enabling MFA
 * Login to AWS Console as a root user:
+Home- Security Credentials
 
-Home- Security Credentials->
 <img src="img.png" alt="Home" width="500"/>
 * Assign MFA device
 <img src="img_1.png" alt="Home" width="500"/>
