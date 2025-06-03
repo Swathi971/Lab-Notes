@@ -37,8 +37,10 @@ ___
 
 * Attach policy directly-> Permissions policies- AdministratorAccess- >next- >create user.
 <img src="img_9.png" alt="Home" width="500"/>
+
 * Now I have created IAM user and I want to practice lab by logging in as IAM user:
 <img src="img_10.png" alt="Home" width="400"/>
+
 * You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
 <img src="img_12.png" alt="Home" width="400"/>
