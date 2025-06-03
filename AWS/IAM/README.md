@@ -66,11 +66,11 @@ ___
 <img src="img_15.png" alt="Home" width="500"/>
 
 ##### Retrieve Password:
-
-<img src="img_20.png" alt="Home" width="300"/>
-
 * Copy the password-> copy the url-paste it in url
-* Login as Devuser:
+
+<img src="img_20.png" alt="Home" width="500"/>
+
+##### Login as Devuser:
 <img src="img_17.png" alt="Home" width="300"/>
 * Set a newpassword:
 <img src="img_18.png" alt="Home" width="300"/>
