@@ -62,6 +62,7 @@ ___
 ##### Set permissions:
 * Select- attach policy directly- ec2fullaccess-next
 <img src="img_13.png" alt="Home" width="500"/>
+
 ##### Review and create:
 <img src="img_15.png" alt="Home" width="500"/>
 
@@ -73,7 +74,7 @@ ___
 ##### Login as Devuser:
 <img src="img_17.png" alt="Home" width="300"/>
 
-* Set a newpassword:
+##### Set a newpassword:
 <img src="img_18.png" alt="Home" width="300"/>
 
 ##### Logged in as Devuser
