@@ -10,13 +10,15 @@ If you want to remove MFA device-> Home- Security Credentials- Assign MFA device
 * Click See a list of compatible applications- Virtual authenticator apps (Do not click it)- it is just an information:
 <img src="img_4.png" alt="Home" width="500"/>
 <img src="img_3.png" alt="Home" width="500"/>
+
 * Set up device-> Authenticator app- download the google app authenticator app in mobile- Open the app-> Click show QR code in laptop- scan the QR code using app- there is a 6-digit code after scanning in app- Enter the code in MFA Code 1 (Laptop)-> After 30 seconds you will see another code- enter it in MFA Code 2- Add MFA:
 <img src="img_6.png" alt="Home" width="500"/>
 Now sign-out from your account- Sign in to the root user- Enter email address- MFA Code- submit-> There is no problem if password or email address is leaked because MFA code is needed to sign in:
 <img src="img_5.png" alt="Home" width="500"/>
 ---
+
 ##### Creating IAM user account and granting administrative permissions to the user and login to the IAM user for day-to-day activities:
-You should be in root user- IAM- users- create user-> user name- (test- user- M)- provide user access to aws console- Custom password-> disable the users must create a new password- >Attach policy directly-> Permissions policies- AdministratorAccess- >next- >create user.
+You should be in root user- IAM- users- create user-> username- (testuser)- provide user access to aws console- Custom password-> disable the users must create a new password- >Attach policy directly-> Permissions policies- AdministratorAccess- >next- >create user.
 <img src="img_7.png" alt="Home" width="500"/>
 <img src="img_8.png" alt="Home" width="500"/>
 <img src="img_9.png" alt="Home" width="500"/>
@@ -26,7 +28,7 @@ Now I have created IAM user and I want to practice lab by logging in as IAM user
 You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
 <img src="img_12.png" alt="Home" width="500"/>
-IAM user sign in-> Account ID-> user name- (test- user- M) and password-> Now I have log in as IAM user and region should be North Virginia. 
+IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia. 
 
 
 
