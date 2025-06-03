@@ -48,7 +48,7 @@ ___
 ##### Sign in using an URL:
 * You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
-<img src="img_12.png" alt="Home" width="100"/>
+<img src="img_12.png" alt="Home" width="300"/>
 
 * IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia.
 ___
@@ -62,8 +62,12 @@ ___
 ##### Set permissions:
 * Select- attach policy directly- ec2fullaccess-next
 <img src="img_13.png" alt="Home" width="500"/>
-
+##### Review and create:
 <img src="img_15.png" alt="Home" width="500"/>
+
+##### Retrieve Password:
+<img src="img_16.png" alt="Home" width="500"/>
+
 
 
 
