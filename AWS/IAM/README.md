@@ -48,7 +48,7 @@ ___
 ##### Sign in using an URL:
 * You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
-<img src="img_12.png" alt="Home" width="300"/>
+<img src="img_12.png" alt="Home" width="100"/>
 
 * IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia.
 ___
