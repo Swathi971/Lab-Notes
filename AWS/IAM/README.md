@@ -43,7 +43,7 @@ ___
 
 ##### Logging in as IAM User:
 * Now I have created IAM user and I want to practice lab by logging in as IAM user:
-<img src="img_10.png" alt="Home" width="400"/>
+<img src="img_10.png" alt="Home" width="500"/>
 
 ##### Sign in using an URL:
 * You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
