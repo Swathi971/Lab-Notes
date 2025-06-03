@@ -66,8 +66,10 @@ ___
 <img src="img_15.png" alt="Home" width="500"/>
 
 ##### Retrieve Password:
-<img src="img_16.png" alt="Home" width="500"/>
-
+* Copy the password-> copy the url-paste it in url
+<img src="img_17.png" alt="Home" width="500"/>
+<img src="img_18.png" alt="Home" width="500"/>
+<img src="img_19.png" alt="Home" width="500"/>
 
 
 
