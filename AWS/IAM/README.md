@@ -23,7 +23,7 @@ If you want to remove MFA device-> Home- Security Credentials- Assign MFA device
 
 ##### Sign in to the root user:
 * Now sign-out from your account- Sign in to the root user- Enter email address- MFA Code- submit-> There is no problem if password or email address is leaked because MFA code is needed to sign in.
-<img src="img_5.png" alt="Home" width="400"/>
+<img src="img_5.png" alt="Home" width="200"/>
 
 ___
 
@@ -48,7 +48,7 @@ ___
 ##### Sign in using an URL:
 * You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
-<img src="img_12.png" alt="Home" width="300"/>
+<img src="img_12.png" alt="Home" width="200"/>
 
 * IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia.
 ___
@@ -78,7 +78,7 @@ ___
 <img src="img_18.png" alt="Home" width="200"/>
 
 ##### Logged in as Devuser
-<img src="img_19.png" alt="Home" width="500"/>
+<img src="img_19.png" alt="Home" width="600"/>
 
 
 
