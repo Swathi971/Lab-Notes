@@ -31,7 +31,7 @@ ___
 * Creating IAM user account and granting administrative permissions to the user and login to the IAM user for day-to-day activities. You should be in root user.
 ##### Creating IAM User:
 * IAM- users- create user.
-<img src="img_7.png" alt="Home" width="500"/>
+<img src="img_7.png" alt="Home" width="600"/>
 
 ##### Specify User details:
 * username- (testuser)- provide user access to aws console- Custom password-> disable the users must create a new password.
@@ -77,7 +77,7 @@ ___
 ##### Set a newpassword:
 <img src="img_18.png" alt="Home" width="200"/>
 
-##### Logged in as Devuser
+##### Logged in as Devuser:
 <img src="img_19.png" alt="Home" width="600"/>
 
 
