@@ -19,6 +19,7 @@ Now sign-out from your account- Sign in to the root user- Enter email address- M
 
 ##### Creating IAM user account and granting administrative permissions to the user and login to the IAM user for day-to-day activities:
 You should be in root user- IAM- users- create user-> username- (testuser)- provide user access to aws console- Custom password-> disable the users must create a new password- >Attach policy directly-> Permissions policies- AdministratorAccess- >next- >create user.
+
 <img src="img_7.png" alt="Home" width="500"/>
 <img src="img_8.png" alt="Home" width="500"/>
 <img src="img_9.png" alt="Home" width="500"/>
