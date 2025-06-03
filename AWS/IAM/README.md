@@ -40,15 +40,19 @@ ___
 ##### Set Permissions:
 * Attach policy directly-> Permissions policies- AdministratorAccess- >next- >create user.
 <img src="img_9.png" alt="Home" width="500"/>
+
 ##### Logging in as IAM User:
 * Now I have created IAM user and I want to practice lab by logging in as IAM user:
 <img src="img_10.png" alt="Home" width="400"/>
+
 ##### Sign in using an URL:
 * You will see this page after creating IAM user Retrieve password-> copy the sign in URL- Sign out->Paste it in the new tab- Enter.
 <img src="img_11.png" alt="Home" width="500"/>
 <img src="img_12.png" alt="Home" width="400"/>
+
 * IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia.
 ___
+
 ### IAM service
 * Select-> I want to create an IAM user:
 <img src="img_14.png" alt="Home" width="500"/>
