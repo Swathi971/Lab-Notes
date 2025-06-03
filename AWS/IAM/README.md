@@ -67,6 +67,8 @@ ___
 
 ##### Retrieve Password:
 
+<img src="img_20.png" alt="Home" width="300"/>
+
 * Copy the password-> copy the url-paste it in url
 * Login as Devuser:
 <img src="img_17.png" alt="Home" width="300"/>
