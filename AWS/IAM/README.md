@@ -1,5 +1,5 @@
-#### IAM- Identity and Access Management
-##### Enabling MFA
+## IAM- Identity and Access Management
+### Enabling MFA:
 ##### Login to AWS Console as a root user:
 * Home- Security Credentials
 
@@ -8,7 +8,7 @@
 ##### Assign MFA device:
 <img src="img_1.png" alt="Home" width="500"/>
 
-##### Selecting MFA device
+##### Selecting MFA device:
 * Device name- OPPO-> MFA device options- Authenticator app- next
 <img src="img_2.png" alt="Home" width="400"/>
 If you want to remove MFA device-> Home- Security Credentials- Assign MFA device- Passkeys and security keys- Remove.
@@ -36,6 +36,7 @@ ___
 ##### Specify User details:
 * username- (testuser)- provide user access to aws console- Custom password-> disable the users must create a new password.
 <img src="img_8.png" alt="Home" width="500"/>
+
 ##### Set Permissions:
 * Attach policy directly-> Permissions policies- AdministratorAccess- >next- >create user.
 <img src="img_9.png" alt="Home" width="500"/>
