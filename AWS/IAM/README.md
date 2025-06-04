@@ -89,9 +89,14 @@ ___
 * UserGroup name → Developersgroup, policy name → AmazonRDSFullAccess
 <img src="img_22.png" alt="Home" width="500"/>
 ##### Add users to the group:
+
 * User groups → Developersgroup → Add users
 <img src="img_23.png" alt="Home" width="500"/>
 <img src="img_24.png" alt="Home" width="500"/>
+##### Adding or removing permissions to a particular user:
+* User groups → Developersgroup → Users → Devuser/testuser
+
+
 
 
 
