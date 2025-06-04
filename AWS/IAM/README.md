@@ -103,8 +103,8 @@ ___
 
 * There are 2 policies are attached to the testuser:
 <img src="img_27.png" alt="Home" width="500"/>
-___
 
+___
 ### IAM Role:
 #### Creating IAM role:
 * IAM → Roles → create role
