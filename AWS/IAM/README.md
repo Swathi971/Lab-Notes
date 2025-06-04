@@ -113,8 +113,10 @@ ___
 
 * Add permissions → AmazonS3FullAccess
 <img src="img_29.png" alt="Home" width="500"/>
-* Role name- Test-role
+
+* Role name → Test-role
 <img src="img_30.png" alt="Home" width="500"/>
+
 * By default, trust policy is added
 <img src="img_31.png" alt="Home" width="500"/>
 
