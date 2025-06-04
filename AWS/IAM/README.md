@@ -104,11 +104,13 @@ ___
 * There are 2 policies are attached to the testuser:
 <img src="img_27.png" alt="Home" width="500"/>
 ___
+
 ### IAM Role:
 #### Creating IAM role:
 * IAM → Roles → create role
 * Trusted entity type → AWS account
 <img src="img_28.png" alt="Home" width="500"/>
+
 * Add permissions → AmazonS3FullAccess
 <img src="img_29.png" alt="Home" width="500"/>
 
