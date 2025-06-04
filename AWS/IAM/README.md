@@ -105,7 +105,7 @@ ___
 <img src="img_27.png" alt="Home" width="500"/>
 
 ___
-### IAM Role:
+### IAM Role
 #### Creating IAM role:
 * IAM → Roles → create role
 * Trusted entity type → AWS account
@@ -119,6 +119,19 @@ ___
 
 * By default, trust policy is added
 <img src="img_31.png" alt="Home" width="500"/>
+
+#### Assume Role:
+##### Granting permissions to the user:
+* Users - Devuser
+* Add permissions - Create inline policy
+<img src="img_32.png" alt="Home" width="500"/>
+* Specify permissions: 
+     Action: "sts:AssumeRole",
+     Resource: ARN details of particular resource
+* Copy the ARN details of Test-role1:
+<img src="img_33.png" alt="Home" width="500"/>
+<img src="img_34.png" alt="Home" width="500"/>
+
 
 
 
