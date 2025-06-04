@@ -96,7 +96,11 @@ ___
 
 ##### Adding or removing permissions to a particular user:
 * User groups → Developersgroup → Users → Devuser/testuser
-
+<img src="img_25.png" alt="Home" width="500"/>
+* There are 3 policies are attached to the Devuser
+<img src="img_26.png" alt="Home" width="500"/>
+* There are 2 policies are attached to the testuser
+<img src="img_27.png" alt="Home" width="500"/>
 
 
 
