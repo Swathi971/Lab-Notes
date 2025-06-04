@@ -147,8 +147,7 @@ ___
 * Devuser assuming the Test-role1
 * Switch role:
 <img src="img_39.png" alt="Home" width="500"/>
-* Switched the role as Test-role1:
-![img_40.png](img_40.png)
+* Successfully assumed the role:
 <img src="img_40.png" alt="Home" width="500"/>
 
 
