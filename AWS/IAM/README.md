@@ -144,9 +144,11 @@ ___
 * Sign-in as Devuser
 <img src="img_37.png" alt="Home" width="200"/>
 <img src="img_38.png" alt="Home" width="500"/>
+
 * Devuser assuming the Test-role1
 * Switch role:
 <img src="img_39.png" alt="Home" width="500"/>
+
 * Successfully assumed the role:
 <img src="img_40.png" alt="Home" width="500"/>
 
