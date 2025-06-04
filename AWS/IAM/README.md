@@ -80,5 +80,14 @@ ___
 ##### Logged in as Devuser:
 <img src="img_19.png" alt="Home" width="600"/>
 
+___
+#### IAM Group
+##### Creating user group:
+* User group → Create group
+<img src="img_21.png" alt="Home" width="600"/>
+* UserGroup name- Developersgroup, policy name- AmazonRDSFullAccess
+<img src="img_22.png" alt="Home" width="500"/>
+
+
 
 
