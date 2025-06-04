@@ -123,7 +123,7 @@ ___
 #### Assume Role:
 ##### Granting permissions to the user:
 * Users - Devuser
-* Add permissions - Create inline policy
+* Add permissions → Create inline policy
 <img src="img_32.png" alt="Home" width="500"/>
 
 * Copy the ARN details of Test-role1:
@@ -135,6 +135,7 @@ ___
 <img src="img_34.png" alt="Home" width="500"/>
 
 ##### Create Policy:
+* Policy name Test → inlinePolicy
 <img src="img_35.png" alt="Home" width="500"/>
 <img src="img_36.png" alt="Home" width="500"/>
 
