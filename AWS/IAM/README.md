@@ -130,8 +130,8 @@ ___
 <img src="img_33.png" alt="Home" width="500"/>
 
 ##### Specify permissions: 
-     Action: "sts:AssumeRole",
-     Resource: ARN details of particular resource
+* Action: "sts:AssumeRole",
+* Resource: ARN details of particular resource
 <img src="img_34.png" alt="Home" width="500"/>
 
 ##### Create Policy:
