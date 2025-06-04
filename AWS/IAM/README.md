@@ -55,7 +55,8 @@ ___
 <img src="img_11.png" alt="Home" width="500"/>
 <img src="img_12.png" alt="Home" width="200"/>
 
-* IAM user sign in-> Account ID-> user name- (testuser) and password-> Now I have log in as IAM user and region should be North Virginia.
+* IAM user sign in → Account ID → user name → (testuser) and password
+* Now I have log in as IAM user and region should be North Virginia.
 ___
 
 ### IAM service
