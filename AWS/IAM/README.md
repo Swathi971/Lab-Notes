@@ -83,10 +83,16 @@ ___
 ___
 #### IAM Group
 ##### Creating user group:
-* User group → Create group
+* User groups → Create group
 <img src="img_21.png" alt="Home" width="600"/>
-* UserGroup name- Developersgroup, policy name- AmazonRDSFullAccess
+
+* UserGroup name → Developersgroup, policy name → AmazonRDSFullAccess
 <img src="img_22.png" alt="Home" width="500"/>
+##### Add users to the group:
+* User groups → Developersgroup → Add users
+<img src="img_23.png" alt="Home" width="500"/>
+<img src="img_24.png" alt="Home" width="500"/>
+
 
 
 
