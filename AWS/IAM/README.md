@@ -98,11 +98,20 @@ ___
 * User groups → Developersgroup → Users → Devuser/testuser
 <img src="img_25.png" alt="Home" width="500"/>
 
-* There are 3 policies are attached to the Devuser
+* There are 3 policies are attached to the Devuser:
 <img src="img_26.png" alt="Home" width="500"/>
 
-* There are 2 policies are attached to the testuser
+* There are 2 policies are attached to the testuser:
 <img src="img_27.png" alt="Home" width="500"/>
+___
+### IAM Role:
+#### Creating IAM role:
+* IAM → Roles → create role
+* Trusted entity type → AWS account
+<img src="img_28.png" alt="Home" width="500"/>
+* Add permissions → AmazonS3FullAccess
+<img src="img_29.png" alt="Home" width="500"/>
+
 
 
 
