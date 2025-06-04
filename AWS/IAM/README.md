@@ -134,6 +134,10 @@ ___
      Resource: ARN details of particular resource
 <img src="img_34.png" alt="Home" width="500"/>
 
+##### Create Policy:
+<img src="img_35.png" alt="Home" width="500"/>
+<img src="img_36.png" alt="Home" width="500"/>
+
 
 
 
