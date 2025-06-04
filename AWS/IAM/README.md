@@ -125,6 +125,7 @@ ___
 * Users - Devuser
 * Add permissions - Create inline policy
 <img src="img_32.png" alt="Home" width="500"/>
+
 * Specify permissions: 
      Action: "sts:AssumeRole",
      Resource: ARN details of particular resource
