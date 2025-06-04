@@ -126,11 +126,9 @@ ___
 * Add permissions - Create inline policy
 <img src="img_32.png" alt="Home" width="500"/>
 
-* Specify permissions: 
-     Action: "sts:AssumeRole",
-     Resource: ARN details of particular resource
 * Copy the ARN details of Test-role1:
 <img src="img_33.png" alt="Home" width="500"/>
+
 ##### Specify permissions: 
      Action: "sts:AssumeRole",
      Resource: ARN details of particular resource
