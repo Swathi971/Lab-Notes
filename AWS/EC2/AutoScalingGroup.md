@@ -13,7 +13,7 @@
 <img src=".github/images/img_6.png" alt="scaling" width="50%"/>
 <img src=".github/images/img_4.png" alt="scaling" width="50%"/>
 
-     * Create the Security group:
+    * Create the Security group:
 <img src=".github/images/img_5.png" alt="scaling" width="50%"/>
 
 _____
