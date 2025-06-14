@@ -12,3 +12,5 @@
      * As a AWS best practice, don’t specify the subnet details inside the launch template instead specify while configuring ASG.
   * Create the Security group:
 <img src=".github/images/img_5.png" alt="scaling" width="50%"/>
+_____
+##### Create Auto Scaling Group
