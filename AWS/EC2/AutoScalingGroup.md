@@ -21,6 +21,7 @@ _____
 * EC2→ Auto Scaling Group→ Create Auto Scaling Group
 * Select the launch template that you have created:
 <img src=".github/images/img_7.png" alt="scaling" width="60%"/>
+
 * Choose instance launch options:
      * Choose VPC and subnets:
 <img src=".github/images/img_8.png" alt="scaling" width="50%"/>
