@@ -18,3 +18,6 @@
 
 _____
 ##### Create Auto Scaling Group
+* EC2→ Auto Scaling Group→ Create Auto Scaling Group
+* Select the launch template that you have created:
+<img src=".github/images/img_7.png" alt="scaling" width="50%"/>
