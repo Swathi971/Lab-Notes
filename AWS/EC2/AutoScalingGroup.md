@@ -32,6 +32,7 @@ _____
 
 * Configure group size and scaling:
 <img src=".github/images/img_11.png" alt="scaling" width="50%"/>
+
   * No scaling policy
 <img src=".github/images/img_12.png" alt="scaling" width="50%"/>
   * Additional capacity settings- Default
