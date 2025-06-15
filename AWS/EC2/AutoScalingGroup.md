@@ -25,3 +25,4 @@ _____
 * Choose instance launch options:
      * Choose VPC and subnets:
 <img src=".github/images/img_8.png" alt="scaling" width="50%"/>
+     * dd
