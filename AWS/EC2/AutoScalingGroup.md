@@ -36,3 +36,6 @@ _____
     * Additional settings- not enabled
 <img src=".github/images/img_11.png" alt="scaling" width="50%"/>
 <img src=".github/images/img_12.png" alt="scaling" width="50%"/>
+
+* Add notifications:
+* Add notification→ 
