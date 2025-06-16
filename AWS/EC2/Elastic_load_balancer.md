@@ -10,6 +10,7 @@ key pair- Proceed without a key pair
 ##### Network settings
 * Choose VPC, subnets and create security group:
 <img src=".github/images/img_18.png" alt="elastic load balancer" width="50%"/>
+
 * Allow inbound rules:
 <img src=".github/images/img_19.png" alt="elastic load balancer" width="50%"/>
 
@@ -34,5 +35,5 @@ systemctl enable httpd
 # Create a simple web page showing the server's IP address
 echo "<h1>This message from: $(hostname -i)</h1>" > /var/www/html/index.html
 ```
-##### Launch the instance
+* Now launch the instance
 
