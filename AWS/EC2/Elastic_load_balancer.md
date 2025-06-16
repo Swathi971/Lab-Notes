@@ -35,5 +35,19 @@ systemctl enable httpd
 # Create a simple web page showing the server's IP address
 echo "<h1>This message from: $(hostname -i)</h1>" > /var/www/html/index.html
 ```
-* Now launch the instance
-
+##### Now launch the instances
+* Two instances are created with a name Target 1 and Target 2
+___
+##### Create target groups
+* EC2→ Target groups→ Create target group
+```commandline
+Target type- Instances
+Target group name- TargetGroupTest
+Protocol- HTTP
+IP address type- IPv4
+```
+* Choose the VPC:
+    * Choose the vpc in which our instances are running 
+    * Remaining- default.
+<img src=".github/images/img_20.png" alt="elastic load balancer" width="50%"/>
+<img src=".github/images/img_21.png" alt="elastic load balancer" width="50%"/>
