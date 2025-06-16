@@ -49,5 +49,5 @@ IP address type- IPv4
 * Choose the VPC:
     * Choose the vpc in which our instances are running 
     * Remaining- default.
-<img src=".github/images/img_20.png" alt="elastic load balancer" width="50%"/>
+<img src=".github/images/img_21.png" alt="elastic load balancer" width="50%"/>
 <img src=".github/images/img_22.png" alt="elastic load balancer" width="50%"/>
