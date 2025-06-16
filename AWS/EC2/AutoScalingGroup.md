@@ -50,3 +50,5 @@ _____
 
 * We can also see instances in instance dashboard:
 <img src=".github/images/img_16.png" alt="scaling" width="50%"/>
+
+* ASG and launch template are not chargeable but instances are created by ASG chargeable. After deleting ASG, instances are also be deleted. 
