@@ -51,3 +51,9 @@ IP address type- IPv4
     * Remaining- default.
 <img src=".github/images/img_21.png" alt="elastic load balancer" width="50%"/>
 <img src=".github/images/img_22.png" alt="elastic load balancer" width="50%"/>
+
+* Register targets:
+  * Select 2 instances→ Include as pending below→ Create target group
+<img src=".github/images/img_23.png" alt="elastic load balancer" width="50%"/>
+<img src=".github/images/img_24.png" alt="elastic load balancer" width="50%"/>
+
