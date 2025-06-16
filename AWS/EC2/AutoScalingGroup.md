@@ -38,4 +38,15 @@ _____
 <img src=".github/images/img_12.png" alt="scaling" width="50%"/>
 
 * Add notifications:
-* Add notification→ 
+  * Add notification→ Create a topic
+<img src=".github/images/img_13.png" alt="scaling" width="50%"/>
+
+* Add Tags:
+<img src=".github/images/img_14.png" alt="scaling" width="50%"/>
+
+* ASG has created with 2 instances:
+  * ASG-Test→ Instance management
+<img src=".github/images/img_15.png" alt="scaling" width="50%"/>
+
+* We can also see instances in instance dashboard:
+<img src=".github/images/img_16.png" alt="scaling" width="50%"/>
