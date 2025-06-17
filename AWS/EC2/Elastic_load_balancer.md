@@ -73,5 +73,8 @@ ___
   * After creating security group choose ALBSecuritygroup 
 <img src=".github/images/img_27.png" alt="elastic load balancer" width="60%"/>
 
+* Add listner:
+<img src=".github/images/img_29.png" alt="elastic load balancer" width="60%"/>
+
 * Create load balancer:
 <img src=".github/images/img_28.png" alt="elastic load balancer" width="60%"/>
