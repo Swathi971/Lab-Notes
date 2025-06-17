@@ -70,6 +70,7 @@ ___
 
 * Create Security group:
   * Outbound rules: Type→ All traffic, Destination→ 0.0.0.0/0
-  * After creating security group choose the ALBSecuritygroup 
+  * After creating security group choose ALBSecuritygroup 
+<img src=".github/images/img_27.png" alt="elastic load balancer" width="60%"/>
+  * Create load balancer:
 <img src=".github/images/img_27.png" alt="elastic load balancer" width="50%"/>
-
