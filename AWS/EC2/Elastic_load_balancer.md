@@ -56,6 +56,7 @@ IP address type- IPv4
   * Select 2 instances→ Include as pending below→ Create target group
 <img src=".github/images/img_23.png" alt="elastic load balancer" width="50%"/>
 <img src=".github/images/img_24.png" alt="elastic load balancer" width="50%"/>
+
 ___
 
 ##### Create Load balancer
@@ -63,8 +64,10 @@ ___
   * Load balancer Types→ Application Load Balancer
 * Create Application Load Balancer:
 <img src=".github/images/img_25.png" alt="elastic load balancer" width="50%"/>
+
 * Choose VPC, AZ and subnets:
 <img src=".github/images/img_26.png" alt="elastic load balancer" width="50%"/>
+
 * Create Security group:
   * Outbound rules: Type→ All traffic, Destination→ 0.0.0.0/0
 <img src=".github/images/img_27.png" alt="elastic load balancer" width="50%"/>
