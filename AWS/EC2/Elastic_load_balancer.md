@@ -66,9 +66,10 @@ ___
 <img src=".github/images/img_25.png" alt="elastic load balancer" width="50%"/>
 
 * Choose VPC, AZ and subnets:
-<img src=".github/images/img_26.png" alt="elastic load balancer" width="50%"/>
+<img src=".github/images/img_26.png" alt="elastic load balancer" width="60%"/>
 
 * Create Security group:
   * Outbound rules: Type→ All traffic, Destination→ 0.0.0.0/0
+  * After creating security group choose the ALBSecuritygroup 
 <img src=".github/images/img_27.png" alt="elastic load balancer" width="50%"/>
 
