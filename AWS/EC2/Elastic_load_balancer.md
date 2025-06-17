@@ -56,4 +56,7 @@ IP address type- IPv4
   * Select 2 instances→ Include as pending below→ Create target group
 <img src=".github/images/img_23.png" alt="elastic load balancer" width="50%"/>
 <img src=".github/images/img_24.png" alt="elastic load balancer" width="50%"/>
+___
+##### Create Load balancer
+* EC2→ Load balancer→ Create load balancer
 
