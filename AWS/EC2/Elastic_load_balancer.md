@@ -80,4 +80,4 @@ ___
 <img src=".github/images/img_28.png" alt="elastic load balancer" width="60%"/>
 
 * Copy the DNS name and paste in URL:
-img src=".github/images/img_30.png" alt="elastic load balancer" width="60%"/>
+<img src=".github/images/img_30.png" alt="elastic load balancer" width="60%"/>
