@@ -51,8 +51,10 @@ IP address type- IPv4
 ##### Setting up an Application load balancer for two target groups
 * Create Application load balancer:
 <img src=".github/images/img_38.png" alt="elastic load balancer" width="60%"/>
+
 * Choose VPC, Subnets and AZs:
-<img src=".github/images/img_39.png" alt="elastic load balancer" width="50%"/>
+<img src=".github/images/img_39.png" alt="elastic load balancer" width="60%"/>
+
 * Add listeners and rules:
   * Add one listener rule
 
