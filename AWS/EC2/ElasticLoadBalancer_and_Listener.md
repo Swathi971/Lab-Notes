@@ -83,4 +83,9 @@ IP address type- IPv4
 <img src=".github/images/img_47.png" alt="elastic load balancer" width="60%"/>
 
 * Copy the DNS name of our load balancer and paste it in URL:
+    * Private IP addresses of Target1 and Target2 will be displayed means load balancer routes the traffic to Targetgroup1
+<img src=".github/images/img_48.png" alt="elastic load balancer" width="60%"/>
+
+* Load balancer will route the traffic to Targetgroup2 when Query string is used in the path
+<img src=".github/images/img_49.png" alt="elastic load balancer" width="60%"/>
 
