@@ -55,8 +55,31 @@ IP address type- IPv4
 * Choose VPC, Subnets and AZs:
 <img src=".github/images/img_39.png" alt="elastic load balancer" width="60%"/>
 
-* Add listeners and rules:
-  * Add one listener rule
+* Add Security group:
+<img src=".github/images/img_40.png" alt="elastic load balancer" width="60%"/>
 
+* Add listener rule to Targetgroup1:
+<img src=".github/images/img_41.png" alt="elastic load balancer" width="60%"/>
 
+* Now Application load balancer has created
+<img src=".github/images/img_42.png" alt="elastic load balancer" width="60%"/>
+
+* Add one more rule:
+  * Manage rules→ Add rule
+<img src=".github/images/img_43.png" alt="elastic load balancer" width="60%"/>
+  
+* Add conditions:
+  * Add condition→ Query string
+<img src=".github/images/img_44.png" alt="elastic load balancer" width="60%"/>
+
+* Forward requests to Targetgroup2:
+<img src=".github/images/img_45.png" alt="elastic load balancer" width="60%"/>
+
+* Set a priority for a rule2:
+<img src=".github/images/img_46.png" alt="elastic load balancer" width="60%"/>
+
+* Two rules are added:
+<img src=".github/images/img_47.png" alt="elastic load balancer" width="60%"/>
+
+* Copy the DNS name of our load balancer and paste it in URL:
 
