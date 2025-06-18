@@ -28,6 +28,7 @@ IP address type- IPv4
 * Register targets:
   * Select 2 instances→ Include as pending below→ Create target group:
 <img src=".github/images/img_35.png" alt="elastic load balancer" width="50%"/>
+
 * Create another target group:
 ```
 Target type- Instances
