@@ -1,4 +1,4 @@
-### Auto Scaling Group
+### Setting up an Auto Scaling Group
 
 ##### Create launch template
 * Launch template→ Create launch template
