@@ -1,4 +1,4 @@
-### Elastic load balancer
+### Setting up an Application load balancer for target group
 ##### Create two instances
 <img src=".github/images/img_17.png" alt="elastic load balancer" width="60%"/>
 
