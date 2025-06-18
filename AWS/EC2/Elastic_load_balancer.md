@@ -48,7 +48,7 @@ IP address type- IPv4
 ```
 * Choose the VPC:
     * Choose the vpc in which our instances are running 
-    * Remaining- default.
+    * Remaining- default
 <img src=".github/images/img_21.png" alt="elastic load balancer" width="50%"/>
 <img src=".github/images/img_22.png" alt="elastic load balancer" width="50%"/>
 
@@ -73,7 +73,7 @@ ___
   * After creating security group choose ALBSecuritygroup 
 <img src=".github/images/img_27.png" alt="elastic load balancer" width="60%"/>
 
-* Add listners and rules:
+* Add listeners and rules:
 <img src=".github/images/img_29.png" alt="elastic load balancer" width="60%"/>
 
 * Create load balancer:
