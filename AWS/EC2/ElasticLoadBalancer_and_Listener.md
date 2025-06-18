@@ -12,7 +12,8 @@
 
 * Four instances are created:
 <img src=".github/images/img_34.png" alt="elastic load balancer" width="50%"/>
-___
+
+---
 
 ##### Create target groups:
 * Create one target group:
