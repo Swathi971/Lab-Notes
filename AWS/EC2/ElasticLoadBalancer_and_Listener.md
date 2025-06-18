@@ -46,6 +46,7 @@ IP address type- IPv4
 
 * Two target groups have created:
 <img src=".github/images/img_37.png" alt="elastic load balancer" width="60%"/>
+
 ---
 ##### Setting up an Application load balancer for two target groups
 * Create Application load balancer:
