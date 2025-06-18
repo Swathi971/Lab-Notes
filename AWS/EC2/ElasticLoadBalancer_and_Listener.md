@@ -15,7 +15,7 @@
 
 ---
 
-##### Create target groups:
+##### Create target groups
 * Create one target group:
 ```
 Target type- Instances
@@ -46,5 +46,14 @@ IP address type- IPv4
 
 * Two target groups have created:
 <img src=".github/images/img_37.png" alt="elastic load balancer" width="60%"/>
+---
+##### Setting up an Application load balancer for two target groups
+* Create Application load balancer:
+<img src=".github/images/img_38.png" alt="elastic load balancer" width="60%"/>
+* Choose VPC, Subnets and AZs:
+<img src=".github/images/img_39.png" alt="elastic load balancer" width="50%"/>
+* Add listeners and rules:
+  * Add one listener rule
+
 
 
