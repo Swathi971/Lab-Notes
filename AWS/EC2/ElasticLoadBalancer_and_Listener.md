@@ -1,4 +1,5 @@
-### Setting up an application load balancer for two target groups
+### Configure the load balancer and listener: 
+#### Setting up an application load balancer for two target groups
 ##### Launch four instances
 * Key pair is not needed
 <img src=".github/images/img_31.png" alt="elastic load balancer" width="50%"/>
