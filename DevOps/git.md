@@ -6,8 +6,8 @@
 ```
 ##### If not install git:
 ```commandline
-[root@git-server ~]# yum install git -y  # RHEL/CentOS
-[root@git-server ~]# apt install git     # Debian/Ubuntu
+yum install git -y  # RHEL/CentOS
+apt install git     # Debian/Ubuntu
 ```
 ##### Create a New Folder:
 ```commandline
