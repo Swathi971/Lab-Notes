@@ -28,5 +28,31 @@ touch sample.txt
 git status
 ```
 → You’ll see the file is untracked
-##### 
+##### Add File to Staging Area:
+```commandline
+git add sample.txt
+```
+→ File is now staged for commit.
+##### Commit the File:
+```commandline
+git commit -m "Initial commit: added sample.txt"
+```
+##### Configure Git:
+```commandline
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
+→ This sets your identity for all your commits.
+##### Check Commit History:
+```commandline
+git log --oneline
+```
+* The git log -p command is used to show the commit history along with the changes (diffs) introduced in each commit. git log shows a list of commits. -p shows the patch (diff) introduced in each commit
+```commandline
+git log –p 
+```
+* Show the commit history of your Git repository — starting from the most recent commit. Each commit will show Commit hash (a unique ID), Author name and email, Date and time, Commit message
+```commandline
+git log 
+```
 
