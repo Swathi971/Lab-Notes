@@ -1,5 +1,5 @@
-### Git
-### Steps:
+### Git Setup and First Commit Process
+
 ##### Checks if git command exists or not:
 ```commandline
 [root@git-server ~]# git
