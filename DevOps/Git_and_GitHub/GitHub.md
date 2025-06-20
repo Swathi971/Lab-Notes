@@ -13,9 +13,9 @@ Choose "New repository" from the dropdown menu.
 4. Click “Create repository”
 Your new remote repository is now ready on GitHub.
 5. Copy the repository URL
-* For HTTPS: https://github.com/YourUsername/repo-name.git
-* For SSH (advanced): git@github.com:YourUsername/repo-name.git
+* For HTTPS: https://github.com/Swathi971/Lab-Notes.git
+* For SSH (advanced): git@github.com:Swathi971/Lab-Notes.git
 6. Connect your local project to this remote (from your terminal):
 ```commandline
-git remote add origin https://github.com/YourUsername/repo-name.git
+git remote add origin https://github.com/Swathi971/Lab-Notes.git
 ```
