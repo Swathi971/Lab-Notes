@@ -8,8 +8,8 @@ Choose "New repository" from the dropdown menu.
 * Description (optional): Write a short description of your project.
 * Visibility: Choose Public (visible to everyone) or Private.
 3. Initialize with options (optional)
-✅ You can check "Add a README file"
-🟢 Optionally add a .gitignore and license (optional for fresh push)
+* You can check "Add a README file"
+* Optionally add a .gitignore and license (optional for fresh push)
 4. Click “Create repository”
 Your new remote repository is now ready on GitHub.
 5. Copy the repository URL
