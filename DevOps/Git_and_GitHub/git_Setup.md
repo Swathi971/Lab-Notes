@@ -18,7 +18,7 @@ cd microdegree/
 ```commandline
 git init
 ```
-→ This creates a .git/ folder and makes it a Git repository
+→ This creates a .git/ folder and makes it a local Git repository
 ##### Create a File:
 ```commandline
 touch sample.txt 
