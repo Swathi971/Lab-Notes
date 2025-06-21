@@ -69,7 +69,7 @@ git commit -m "Initial commit"
 ```
 ##### 5. Create a GitHub repo using the GitHub UI 
 → Go to https://github.com → Click "New" → Name it (e.g., myproject) → Click "Create repository" 
- 👉 Do NOT check “Initialize with README” (optional, but avoids conflict) OR (in my case I have already created repository called simple in GitHub UI and created new file called file1)
+→ Do NOT check “Initialize with README” (optional, but avoids conflict) OR (in my case I have already created repository called simple in GitHub UI and created new file called file1)
 
 ##### 6. Connect local to GitHub using HTTPS 
 → Copy the HTTPS URL from your new GitHub repo.  
