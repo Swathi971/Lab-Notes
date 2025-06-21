@@ -20,7 +20,7 @@ Your new remote repository is now ready on GitHub.
 git remote add origin https://github.com/Swathi971/Lab-Notes.git
 ```
 ---
-### Cloning the repo through Https using token:
+### Cloning a GitHub Repo via HTTPS with Token Authentication 
 ##### Create the GitHub repository 
 * Create the repository named simple
 * do not add README.md (optional)
