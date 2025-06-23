@@ -159,9 +159,6 @@ upstream  https://github.com/others/repo.git (push)
 git remote add origin https://github.com/yourname/repo.git
 ```
 
-[//]: # (xxxxz)
-hzhhz
-zhz
 
 
 
