@@ -127,7 +127,7 @@ git remote add origin <url>
 
 → You'll later add your own fork of the repo as origin
 
-* Use:
+* Use: 
 ```
 git remote rename origin upstream
 ```
@@ -158,6 +158,11 @@ upstream  https://github.com/others/repo.git (push)
 ```commandline
 git remote add origin https://github.com/yourname/repo.git
 ```
+
+[//]: # (xxxxz)
+hzhhz
+zhz
+
 
 
 
