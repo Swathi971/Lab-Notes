@@ -112,5 +112,52 @@ git rebase --continue
 ```commandline
 git push -u origin main
 ```
+---
+##### If a remote named origin already exists, you'll get an error.
+* To fix it, use:
+```commandline
+git remote remove origin
+git remote add origin <url>
+```
+---
+##### Scenario
+→ You cloned someone else’s repo (e.g., an open-source project).
+→ You want to name their original repo as upstream.
+→ You'll later add your own fork of the repo as origin.
+* Use:
+```
+git remote rename origin upstream
+```
+→ It Renames the remote from origin to upstream.
+##### Example
+```
+git remote -v
+```
+* Output: 
+```commandline
+origin  https://github.com/others/repo.git (fetch)
+origin  https://github.com/others/repo.git (push)
+```
+* Now run:
+```commandline
+git remote rename origin upstream
+```
+* Check again:
+```commandline
+git remote -v
+```
+* Output:
+```commandline
+upstream  https://github.com/others/repo.git (fetch)
+upstream  https://github.com/others/repo.git (push)
+```
+* Then add your own GitHub repo as origin:
+```commandline
+git remote add origin https://github.com/yourname/repo.git
+```
+
+
+
+
 
 
