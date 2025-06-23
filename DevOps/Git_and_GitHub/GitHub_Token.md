@@ -121,9 +121,12 @@ git remote add origin <url>
 ```
 ---
 ##### Scenario
-→ You cloned someone else’s repo (e.g., an open-source project).
-→ You want to name their original repo as upstream.
-→ You'll later add your own fork of the repo as origin.
+→ You cloned someone else’s repo (e.g., an open-source project)
+
+→ You want to name their original repo as upstream
+
+→ You'll later add your own fork of the repo as origin
+
 * Use:
 ```
 git remote rename origin upstream
