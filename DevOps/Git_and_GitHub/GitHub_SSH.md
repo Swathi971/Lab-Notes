@@ -28,7 +28,9 @@ ssh-keygen
 cat id_rsa.pub
 ```
 * Output: 
+
 → a long ssh-rsa string
+
 → Copy this entire string.
 4. **Add Key to GitHub**
 → Go to GitHub > Settings > SSH and GPG keys
