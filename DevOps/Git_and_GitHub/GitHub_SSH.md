@@ -47,7 +47,9 @@ cat id_rsa.pub
 
 5. **Clone Repository Using SSH**
 * Get your SSH URL from GitHub repository:
+
 → Click on Code > SSH
+
 → Copy the URL:
 ```commandline
 git@github.com:Swathi971/demo.git
