@@ -14,10 +14,10 @@ ssh-keygen
 * When prompted:
 
 → Press Enter to save to default location: /root/.ssh/id_rsa
-
 → Leave passphrase empty (just press Enter twice)
 
 * Output:
+
 → Private key: /root/.ssh/id_rsa
 → Public key: /root/.ssh/id_rsa.pub
 
