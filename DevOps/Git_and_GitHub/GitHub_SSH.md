@@ -6,6 +6,7 @@ cd .ssh
 ls
 ```
 → You found only the authorized_keys file, which is used for incoming SSH connections, but not for outbound ones (like GitHub).
+
 2.  **Generate SSH Key Pair**
 ```commandline
 ssh-keygen
