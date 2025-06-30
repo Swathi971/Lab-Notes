@@ -18,7 +18,9 @@ ssh-keygen
 → Leave passphrase empty (just press Enter twice)
 
 * Output:
+
 → Private key: /root/.ssh/id_rsa
+
 → Public key: /root/.ssh/id_rsa.pub
 
 3. **Copy Public Key**
