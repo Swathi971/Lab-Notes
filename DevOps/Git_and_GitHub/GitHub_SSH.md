@@ -32,6 +32,7 @@ cat id_rsa.pub
 → a long ssh-rsa string
 
 → Copy this entire string.
+
 4. **Add Key to GitHub**
 → Go to GitHub > Settings > SSH and GPG keys
 → Click “New SSH Key”
