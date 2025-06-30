@@ -12,8 +12,8 @@ ls
 ssh-keygen
 ```
 * When prompted:
-→ Press Enter to save to default location: /root/.ssh/id_rsa
 
+→ Press Enter to save to default location: /root/.ssh/id_rsa
 → Leave passphrase empty (just press Enter twice)
 
 * Output:
