@@ -35,8 +35,11 @@ cat id_rsa.pub
 
 4. **Add Key to GitHub**
 → Go to GitHub > Settings > SSH and GPG keys
+
 → Click “New SSH Key”
+
 → Paste the key you copied in Step 3
+
 → Click “Add SSH Key”
 
 ✅ Result: Now GitHub can trust your machine via SSH.
