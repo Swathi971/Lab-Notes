@@ -72,3 +72,49 @@ ___
 
 A merge conflict happens in Git when two branches (local & remote) have changes in the same file and same lines, and Git doesn't know which version to keep.
 It usually occurs during: git pull, git merge, git rebase
+
+**Example:**
+```commandline
+git push origin main
+```
+**Error:**
+```commandline
+! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/...'
+hint: Updates were rejected because the tip of your current branch is behind...
+```
+This means your local branch is behind the remote — it must pull changes first.
+#####  Step-by-Step: How to Fix:
+1. **Pull the latest changes (with rebase):**
+```commandline
+git pull --rebase origin main
+```
+* This pulls the latest commits from GitHub and re-applies your local changes on top.
+* Preferred over normal git pull because it avoids messy merge commits.
+2. **Resolve any merge conflicts (if any):**
+* Git will pause and mark conflicting files.
+* Open the conflicted files. Look for markers:
+```commandline
+<<<<<<< HEAD
+your changes
+=======
+incoming changes from GitHub
+>>>>>>> origin/main
+```
+* Edit the file manually to keep the correct version.
+* After resolving:
+```commandline
+git add <conflicted-file>
+```
+3. ** Continue the rebase:**
+````commandline
+git rebase --continue
+````
+4. **Finally, push your changes:**
+```commandline
+git push origin main
+```
+**Tips to Avoid Merge Conflicts**
+* Pull regularly to stay updated with the remote branch.
+* Use small, frequent commits.
+* Communicate with teammates when working on shared files.
