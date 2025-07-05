@@ -204,3 +204,7 @@ chmod 600 ~/.msmtp/msmtp.log
 
 echo "msmtp configuration completed. You can now send emails using the configured Gmail account."
 ```
+---
+![img.png](img.png)
+![img_1.png](img_1.png)
+
