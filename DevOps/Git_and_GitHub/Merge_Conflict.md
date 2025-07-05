@@ -69,6 +69,5 @@ ___
 ##### Scenario 3:
 **If any merge conflicts in files**
 * What is a Merge Conflict?
-
-A merge conflict happens in Git when two branches (local & remote) have changes in the same file and same lines, and Git doesn't know which version to keep.
+         A merge conflict happens in Git when two branches (local & remote) have changes in the same file and same lines, and Git doesn't know which version to keep.
 It usually occurs during: git pull, git merge, git rebase
