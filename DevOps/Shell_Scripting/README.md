@@ -28,7 +28,7 @@ fi
 cd "C:\path\to\your\key"
 icacls "Mypem.key" /inheritance:r /grant:r "%username%:R"
 ```
-* Verify for read access
+* Verify for read access:
 ```commandline
 icacls "Mypem.key"
 ```
@@ -71,7 +71,7 @@ for logfile in $LOG_DIR/*; do
   fi
 done
 ```
-4. **4.MySQL Database Backup**
+4. **MySQL Database Backup**
 ```commandline
 #!/bin/bash
 
