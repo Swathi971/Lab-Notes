@@ -26,7 +26,7 @@ You're getting the error because your local branch (main) is behind the remote b
 
 **Step 1: Set the upstream branch and pull changes**
 
-Run this to set tracking and pull the latest changes from GitHub:
+* Run this to set tracking and pull the latest changes from GitHub:
 ```commandline
 git pull --rebase origin main
 ```
@@ -34,7 +34,7 @@ git pull --rebase origin main
 
 **Step 2: Push your changes**
 
-Once the pull/rebase is successful, push again:
+* Once the pull/rebase is successful, push again:
 ```commandline
 git push origin main
 ```
