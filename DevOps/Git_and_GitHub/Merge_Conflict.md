@@ -25,6 +25,7 @@ If you wish to set tracking information for this branch you can do so with:
 You're getting the error because your local branch (main) is behind the remote branch on GitHub — meaning there are commits on GitHub that you don't have locally.
 
 **Step 1: Set the upstream branch and pull changes**
+
 Run this to set tracking and pull the latest changes from GitHub:
 ```commandline
 git pull --rebase origin main
@@ -32,6 +33,7 @@ git pull --rebase origin main
 --rebase ensures your local changes are replayed on top of the latest remote changes to avoid unnecessary merge commits.
 
 **Step 2: Push your changes**
+
 Once the pull/rebase is successful, push again:
 ```commandline
 git push origin main
@@ -50,6 +52,7 @@ If you wish to set tracking information for this branch you can do so with:
     git branch --set-upstream-to=origin/<branch> main
 ```
 This message means you're on a local branch (main) that doesn't know which remote branch to pull from. To fix this, you need to either:
+
 **Set up tracking branch:**
 If you want Git to remember the upstream branch so you can just do git pull or git push in the future:
 ```commandline
