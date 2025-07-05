@@ -38,6 +38,8 @@ git pull --rebase origin main
 ```commandline
 git push origin main
 ```
+___
+
 ##### Scenario 2:
 ```commandline
 [root@ip-11-0-23-165 microdegree]# git pull
