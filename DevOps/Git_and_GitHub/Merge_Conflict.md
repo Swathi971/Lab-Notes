@@ -1,4 +1,4 @@
-#### Merge conflict
+#### Git Merge conflicts
 ##### Scenario 1:
 ```commandline
 [root@ip-11-0-23-165 microdegree]# git push -u origin main
@@ -65,3 +65,10 @@ git branch --set-upstream-to=origin/main main
 ```commandline
 git pull
 ```
+___
+##### Scenario 3:
+**If any merge conflicts in files**
+* What is a Merge Conflict?
+
+A merge conflict happens in Git when two branches (local & remote) have changes in the same file and same lines, and Git doesn't know which version to keep.
+It usually occurs during: git pull, git merge, git rebase
