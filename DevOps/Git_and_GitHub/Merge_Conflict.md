@@ -52,13 +52,12 @@ If you wish to set tracking information for this branch you can do so with:
     git branch --set-upstream-to=origin/<branch> main
 ```
 This message means you're on a local branch (main) that doesn't know which remote branch to pull from. To fix this, you need to either:
-
 **Set up tracking branch:**
 If you want Git to remember the upstream branch so you can just do git pull or git push in the future:
 ```commandline
 git branch --set-upstream-to=origin/main main
 ```
-Then next time you can simply run:
+* Then next time you can simply run:
 ```commandline
 git pull
 ```
