@@ -114,7 +114,7 @@ git rebase --continue
 ```commandline
 git push origin main
 ```
-**Tips to Avoid Merge Conflicts**
+**Tips to Avoid Merge Conflicts:**
 * Pull regularly to stay updated with the remote branch.
 * Use small, frequent commits.
 * Communicate with teammates when working on shared files.
