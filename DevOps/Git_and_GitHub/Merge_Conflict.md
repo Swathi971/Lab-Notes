@@ -84,7 +84,7 @@ error: failed to push some refs to 'https://github.com/...'
 hint: Updates were rejected because the tip of your current branch is behind...
 ```
 This means your local branch is behind the remote — it must pull changes first.
-#####  Step-by-Step: How to Fix:
+#### Step-by-Step: How to Fix:
 1. **Pull the latest changes (with rebase):**
 ```commandline
 git pull --rebase origin main
@@ -106,7 +106,7 @@ incoming changes from GitHub
 ```commandline
 git add <conflicted-file>
 ```
-3. ** Continue the rebase:**
+3. **Continue the rebase:**
 ````commandline
 git rebase --continue
 ````
