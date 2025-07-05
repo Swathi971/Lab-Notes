@@ -1,5 +1,5 @@
 ### SSH Authentication: Local to Remote (Key-Based)
-How to authenticate from your local machine to a remote server via SSH using key-based authentication
+How to authenticate from your local machine to a remote server via SSH using key-based authentication.
 1. **Check Existing .ssh Directory** 
 ```commandline
 ls -a
