@@ -6,7 +6,7 @@ sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io-2023.key
 sudo yum upgrade 
 # Add required dependencies for the jenkins package 
 sudo yum install fontconfig java-17 -y 
-sudo yum install jenkins –y 
+sudo yum install jenkins -y
 sudo systemctl daemon-reload 
 # Start Jenkins
 sudo systemctl enable jenkins 
