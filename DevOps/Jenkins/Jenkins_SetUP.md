@@ -1,4 +1,4 @@
-###  Jenkins Installation
+### Jenkins Installation
 1. Launch an linux server in AWS and add security group rule [Custom TCP and 8080], t2.medium, storage- 20GB
 2. Set up jenkins:
 * Execute script.sh 
