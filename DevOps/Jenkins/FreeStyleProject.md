@@ -32,4 +32,14 @@ section.But default it takes master
 <img src=".github/images/img_4.png" alt="project" width="60%"/>
 <img src=".github/images/img_5.png" alt="project" width="30%"/>
 
+* If you want to see output in jenkins. Click on console output i.e., (click green tick mark)
+
+* If you want to see the repo in our linux terminal:
+ Go to this path →  cd /var/lib/jenkins/workspace/task_name  ⟶ now you can see the files from git repo
 <img src=".github/images/img_6.png" alt="project" width="70%"/>
+  * If we edit the data in github, then again we have to do build, otherwise that change didn’t reflect in 
+linux server
+  * Once run the build, open the file in server whether the data is present/not
+  * So, if we’re doing like this means this is completely under manual work. But, we are DevOps 
+engineers we need automatically.
+**Note**: Here changes ‘happen/not’ automatically build will happen in “schedule the jobs”
