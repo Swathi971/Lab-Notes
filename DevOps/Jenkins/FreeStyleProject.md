@@ -12,7 +12,7 @@ date
 ---
 ##### Creating freestyle project(Build periodically)
 * Go to Dashboard→ test1→ Configuration→ General
-<img src=".github/images/img.png" alt="project" width="60%"/>
+<img src=".github/images/img.png" alt="project" width="70%"/>
 
 *  Get the Git Repo
    * Copy the github repo url and paste in under SCM. It is showing error
@@ -25,11 +25,11 @@ public repo. So, none credentials
 section.But default it takes master
 <img src=".github/images/img_2.png" alt="project" width="60%"/>
    
-   * Trigger
+   * Triggers
 <img src=".github/images/img_3.png" alt="project" width="60%"/>
    
    * Click on save and Build now and build success
 <img src=".github/images/img_4.png" alt="project" width="60%"/>
-<img src=".github/images/img_5.png" alt="project" width="50%"/>
+<img src=".github/images/img_5.png" alt="project" width="30%"/>
 
-<img src=".github/images/img_6.png" alt="project" width="50%"/>
+<img src=".github/images/img_6.png" alt="project" width="70%"/>
