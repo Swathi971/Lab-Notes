@@ -13,6 +13,7 @@ date
 ##### Creating freestyle project(Build periodically)
 * Go to Dashboard→ test1→ Configuration→ General
 <img src=".github/images/img.png" alt="project" width="60%"/>
+
 *  Get the Git Repo
    * Copy the github repo url and paste in under SCM. It is showing error
    * So, now in your AWS terminal → Install GIT → yum install git -y 
