@@ -48,11 +48,11 @@ engineers we need automatically.
 ---
 #### Creating freestyle project(Poll SCM)
 * It only works whenever the changes happened in “GIT” tool (or) github
+
 Dashboard→ new item→ test2→ Frees style→ OK
 <img src=".github/images/img_7.png" alt="project" width="70%"/>
 <img src=".github/images/img_8.png" alt="project" width="50%"/>
 <img src=".github/images/img_9.png" alt="project" width="50%"/>
 <img src=".github/images/img_10.png" alt="project" width="50%"/>
-* I have made changes in development branch
-* Now we can see the builds
+* I have made changes in development branch; now we can see the builds
 <img src=".github/images/img_11.png" alt="project" width="50%"/>
