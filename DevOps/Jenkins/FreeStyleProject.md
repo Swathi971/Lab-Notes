@@ -10,7 +10,7 @@ date
 ```
 * Apply→ Save→ Build now
 ---
-##### Creating freestyle project(Build periodically)
+#### Creating freestyle project(Build periodically)
 * Go to Dashboard→ test1→ Configuration→ General
 <img src=".github/images/img.png" alt="project" width="70%"/>
 
@@ -33,7 +33,6 @@ section.But default it takes master
 <img src=".github/images/img_5.png" alt="project" width="30%"/>
 
 * If you want to see output in jenkins. Click on console output i.e., (click green tick mark)
-
 * If you want to see the repo in our linux terminal:
    * Go to this path →  cd /var/lib/jenkins/workspace/task_name  ⟶ now you can see the files from git repo
 <img src=".github/images/img_6.png" alt="project" width="70%"/>
@@ -43,4 +42,17 @@ linux server
   * Once run the build, open the file in server whether the data is present/not
   * So, if we’re doing like this means this is completely under manual work. But, we are DevOps 
 engineers we need automatically.
+
 **Note**: Here changes ‘happen/not’ automatically build will happen in “schedule the jobs”
+
+---
+#### Creating freestyle project(Poll SCM)
+* It only works whenever the changes happened in “GIT” tool (or) github
+Dashboard→ new item→ test2→ Frees style→ OK
+<img src=".github/images/img_7.png" alt="project" width="70%"/>
+<img src=".github/images/img_8.png" alt="project" width="50%"/>
+<img src=".github/images/img_9.png" alt="project" width="50%"/>
+<img src=".github/images/img_10.png" alt="project" width="50%"/>
+* I have made changes in development branch
+* Now we can see the builds
+<img src=".github/images/img_11.png" alt="project" width="50%"/>
