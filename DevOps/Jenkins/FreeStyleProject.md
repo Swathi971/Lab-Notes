@@ -55,4 +55,4 @@ Dashboard→ new item→ test2→ Frees style→ OK
 <img src=".github/images/img_9.png" alt="project" width="50%"/>
 <img src=".github/images/img_10.png" alt="project" width="50%"/>
 * I have made changes in development branch; now we can see the builds
-<img src=".github/images/img_11.png" alt="project" width="50%"/>
+<img src=".github/images/img_11.png" alt="project" width="40%"/>
