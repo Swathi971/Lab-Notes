@@ -44,6 +44,7 @@ hello swathi & I like k8
 | `$1`, `$2`, `$3`...     | Positional parameters — arguments passed to a script                |
 | `./script.sh swathi k8` | Passes `swathi` as `$1`, and `k8` as `$2`                           |
 | Variables               | You stored `$1` in `name`, and `$2` in `sub` for better readability |
+
 You created a shell script that uses positional arguments $1 and $2. When you don’t pass them, the values are empty. When you do pass them (swathi k8), they’re correctly used in the output.
 Positional parameters ($1, $2, $3, etc.) allow you to make your scripts dynamic and reusable, accepting different inputs at runtime.
 ___
