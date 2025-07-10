@@ -50,7 +50,7 @@ ___
 #### What are Positional Parameters in Shell Scripts?
 Positional parameters are special variables like $1, $2, $3, etc., used to access arguments passed to a shell script or function.
 
-##### Common Positional parameters
+##### Common Positional parameters:
 | Parameter       | Description                              |
 | --------------- | ---------------------------------------- |
 | `$0`            | Name of the script itself (`./greet.sh`) |
@@ -70,7 +70,7 @@ Because their value depends on their position when you run the script:
          $1   $2   $3
 
 ````
-
+Positional parameters let you pass input into a script. They make your script flexible, reusable, and dynamic.
 
 
 
