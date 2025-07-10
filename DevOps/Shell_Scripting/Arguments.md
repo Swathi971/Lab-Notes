@@ -64,9 +64,12 @@ Positional parameters are special variables like $1, $2, $3, etc., used to acces
 | `$?`            | Exit status of the last command          |
 ##### Why They're Called “Positional”?
 Because their value depends on their position when you run the script:
+````
 ./script.sh arg1 arg2 arg3
           ↑    ↑    ↑
          $1   $2   $3
+
+````
 
 
 
