@@ -70,10 +70,9 @@ This creates a custom command add that runs our script.
 
 **Step 4: Apply .bashrc Changes**
 
-To apply alias changes without rebooting:
-Run this to apply the changes:
+To apply alias changes without rebooting, run this to apply the changes:
 ```
-source ~/.bashrc
+source .bashrc
 ```
 Now the command add will work in any terminal session.
 
