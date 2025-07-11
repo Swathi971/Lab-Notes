@@ -31,11 +31,13 @@ bashrc and bashprofile 2 files are there; whatever we make changes in these 2 fi
 .  ..  .bash_logout  .bash_profile  .bashrc  .cshrc  .ssh  .tcshrc  .viminfo  simple  test.sh
 
 **Step 2: Make the Script Executable**
+
 Run this:
 ```commandline
 chmod +x /root/test.sh
 ```
 **Step 3: Add Alias in .bashrc**
+
 Add this line at the bottom of .bashrc:
 ```commandline
 alias add='/root/test.sh'
@@ -69,6 +71,7 @@ alias add='/root/test.sh'
 This creates a custom command add that runs our script.
 
 **Step 4: Apply .bashrc Changes**
+
 To apply alias changes without rebooting:
 Run this to apply the changes:
 ```
@@ -77,6 +80,7 @@ source ~/.bashrc
 Now the command add will work in any terminal session.
 
 **Step 5: Use the Alias to Commit Code**
+
 Clone a Git repo and edit code.html(or any file):
 ```commandline
 [root@ip-11-0-13-201 demo]# vi code.html
@@ -91,8 +95,6 @@ Enter your commit messages: updated the code
 ```
 ##### Output:
 ```
-/root/test.sh: line 3: read: `-': not a valid identifier 
-
 On branch swathi 
 
 Your branch is up to date with 'origin/swathi'. 
@@ -129,6 +131,7 @@ fi
 If you define aliases in .bashrc, they are available in all interactive terminals.
 ##### What is an Alias in Shell?
 An alias is a shortcut command used to replace a long or complex command with a short name.
+
 **Alias syntax**
 ```commandline
 alias shortname='actual_command'
@@ -139,6 +142,7 @@ alias gs='git status'
 alias add='/root/test.sh'
 ```
 **How Aliases Help in Shell Scripting**
+
 Aliases are not typically used inside scripts, but they are extremely helpful in day-to-day shell usage:
 | Use Case                        | Benefit                                  |
 | ------------------------------- | ---------------------------------------- |
