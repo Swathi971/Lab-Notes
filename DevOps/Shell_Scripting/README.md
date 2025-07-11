@@ -198,7 +198,7 @@ EOF
 # Set the correct permissions for the msmtp configuration file
 chmod 600 ~/.msmtprc
 
-# Create a log file for msP0+r\P0+r\P0+r\P0+r\P0+r\P0+r\mtp
+# Create a log file for msmtp
 touch ~/.msmtp/msmtp.log
 chmod 600 ~/.msmtp/msmtp.log
 
