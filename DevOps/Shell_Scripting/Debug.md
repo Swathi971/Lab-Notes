@@ -1,12 +1,10 @@
 #### How to Debug a Shell Script in Linux
-* Use set -x to Trace Execution
-Place at the top of your script:
+* Use set -x to Trace Execution  and place at the top of your script:
 ```commandline
 #!/bin/bash
 set -x
 ```
-It prints each command and its expanded arguments before executing
-It helps see what the script is actually doing
+It prints each command and its expanded arguments before executing and helps see what the script is actually doing.
 
 ##### Example:
 ```
@@ -104,8 +102,22 @@ Then it will:
 * Create user swathi
 * Generate a random password
 * Email the credentials to swathi@example.com (assuming mail command is set up)
+
 Your script exited because it requires two arguments: a username and an email. Since you didn't provide them, it printed the usage instructions and exited.
-* 
+
+##### What does id -u do?
+| Command | Meaning                                           |
+| ------- | ------------------------------------------------- |
+| `id`    | Shows user identity information                   |
+| `-u`    | Returns the **user ID (UID)** of the current user |
+
+id -u returns the numeric user ID. 0 means root. Your script uses it to ensure it’s being run as root.
+##### -z in Shell Scripting
+The -z flag is used in conditional expressions in shell scripts.
+```
+-z STRING
+```
+Returns true if the STRING is empty.
 
 
 
