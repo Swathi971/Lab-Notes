@@ -19,12 +19,15 @@ Saved this script as: /root/test.sh
 bashrc and bashprofile 2 files are there; whatever we make changes in these 2 files, it only take immediate effect we do source or else we reboot the system, it will take immediate effect. 
 
 [root@ip-11-0-29-173 ~]# /root/test.sh
+
 -bash: /root/test.sh: cannot execute: required file not found
 
 [root@ip-11-0-29-173 ~]# add
+
 -bash: add: command not found
 
 [root@ip-11-0-29-173 ~]# ls -a
+
 .  ..  .bash_logout  .bash_profile  .bashrc  .cshrc  .ssh  .tcshrc  .viminfo  simple  test.sh
 
 **Step 2: Make the Script Executable**
