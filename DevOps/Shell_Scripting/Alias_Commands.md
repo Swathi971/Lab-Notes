@@ -16,8 +16,6 @@ This script automates the Git commit and push process using a user-provided comm
 ```
 Saved this script as: /root/test.sh
 
-bashrc and bashprofile 2 files are there; whatever we make changes in these 2 files, it only take immediate effect we do source or else we reboot the system, it will take immediate effect. 
-
 [root@ip-11-0-29-173 ~]# /root/test.sh
 
 -bash: /root/test.sh: cannot execute: required file not found
