@@ -17,7 +17,7 @@ Name-Microdegree   sub-DevOps , these are the  two default values we have given.
 Click build: Go to last build # - console output- hello Microdegree & I like DevOps.
 
 ---
-### Parameterization in Jenkins Using Shell Scripts
+## Parameterization in Jenkins Using Shell Scripts
 ##### Problem Statement:
 Let's say I have a shell script that takes two arguments:
 ```
@@ -45,7 +45,7 @@ I want to execute this script via Jenkins, and pass dynamic values to it — wit
 I will have to edit the job every time you want to change inputs. This is not good practice, especially in teams or production environments.
 Solution → Use Jenkins parameters to let users input values at build time, safely and flexibly.
 
-#### Step-by-Step: Using Parameters in a Freestyle Jenkins Project
+### Step-by-Step: Using Parameters in a Freestyle Jenkins Project
 **Step 1: Create a Freestyle Project**
 * Go to Jenkins Dashboard → New Item
 * Choose Freestyle project
