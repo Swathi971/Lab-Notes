@@ -94,42 +94,7 @@ Jenkins will now pass the entered values as arguments $1 and $2 to your script.
 <img src=".github/images/img_19.png" alt="parameterization" width="60%"/>
 
 ##### Leave defaults or change them (e.g., name = Amit, sub = Linux)
-<img src=".github/images/img_20.png" alt="parameterization" width="60%"/>
-<img src=".github/images/img_21.png" alt="parameterization" width="60%"/>
+<img src=".github/images/img_20.png" alt="parameterization" width="65%"/>
+<img src=".github/images/img_21.png" alt="parameterization" width="65%"/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![img_1.png](.github/images/img_12.png)
-![img.png](.github/images/img_13.png)
-
-![img_2.png](.github/images/img_14.png)
-
-![img_3.png](.github/images/img_15.png)
-
-![img_4.png](.github/images/img_16.png)
-
-Click build with paramerts:
-![img_5.png](.github/images/img_17.png)
-
-![img_6.png](.github/images/img_18.png)
-
-![img_7.png](.github/images/img_19.png)
-
-![img_8.png](.github/images/img_20.png)
-
-![img_9.png](.github/images/img_21.png)
 
