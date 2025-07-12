@@ -88,6 +88,7 @@ Jenkins will now pass the entered values as arguments $1 and $2 to your script.
 
 * You’ll see input fields for name and sub
 <img src=".github/images/img_18.png" alt="parameterization" width="70%"/>
+
 * Click Build
 
 ##### Console Output Example:
