@@ -11,4 +11,4 @@ sudo systemctl daemon-reload
 # Start Jenkins
 sudo systemctl enable jenkins 
 sudo systemctl start jenkins 
-sudo systemctl status jenkins 
+sudo systemctl status jenkins
