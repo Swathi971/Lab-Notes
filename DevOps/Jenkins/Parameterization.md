@@ -23,7 +23,7 @@ I want to execute this script via Jenkins, and pass dynamic values to it — wit
 ```commandline
 /tmp/script.sh swathi k8s
 ```
-I will have to edit the job every time you want to change inputs. This is not good practice, especially in teams or production environments.
+I will have to edit the job every time I want to change inputs. This is not good practice, especially in teams or production environments.
 Solution → Use Jenkins parameters to let users input values at build time, safely and flexibly.
 
 ### Step-by-Step: Using Parameters in a Freestyle Jenkins Project
