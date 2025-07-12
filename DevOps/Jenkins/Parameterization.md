@@ -59,10 +59,10 @@ Solution → Use Jenkins parameters to let users input values at build time, saf
 /tmp/script.sh swathi k8s
 ```
 * Click Save, then Build Now
-<img src=".github/images/img_12.png" alt="parameterization" width="50%"/>
+<img src=".github/images/img_12.png" alt="parameterization" width="70%"/>
 
 * ##### Output:
-<img src=".github/images/img_13.png" alt="parameterization" width="50%"/>
+<img src=".github/images/img_13.png" alt="parameterization" width="70%"/>
 
 ##### But This Is Hardcoded! We Want Dynamic Input
 **Step 3: Add Parameterization**
