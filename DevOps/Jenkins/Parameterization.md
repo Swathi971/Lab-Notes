@@ -69,14 +69,15 @@ Solution → Use Jenkins parameters to let users input values at build time, saf
 * Go to Configure
 * Tick: This project is parameterized
 1. First Parameter:
-<img src=".github/images/img_14.png" alt="parameterization" width="50%"/>
+<img src=".github/images/img_14.png" alt="parameterization" width="70%"/>
 2. Second Parameter:
-<img src=".github/images/img_15.png" alt="parameterization" width="50%"/>
+<img src=".github/images/img_15.png" alt="parameterization" width="70%"/>
 
 **Step 4: Modify Execute Shell**
 
 Replace hardcoded values with parameter variables:
-<img src=".github/images/img_16.png" alt="parameterization" width="50%"/>
+
+<img src=".github/images/img_16.png" alt="parameterization" width="70%"/>
 Jenkins will now pass the entered values as arguments $1 and $2 to your script.
 * Click Apply → Save
 
