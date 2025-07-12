@@ -79,13 +79,14 @@ Replace hardcoded values with parameter variables:
 
 <img src=".github/images/img_16.png" alt="parameterization" width="70%"/>
 Jenkins will now pass the entered values as arguments $1 and $2 to your script.
+
 * Click Apply → Save
 
 **Step 5: Build with Parameters**
 * Click Build with Parameters
-<img src=".github/images/img_17.png" alt="parameterization" width="50%"/>
+<img src=".github/images/img_17.png" alt="parameterization" width="70%"/>
 * You’ll see input fields for name and sub
-<img src=".github/images/img_18.png" alt="parameterization" width="50%"/>
+<img src=".github/images/img_18.png" alt="parameterization" width="70%"/>
 * Click Build
 ##### Console Output Example:
 <img src=".github/images/img_19.png" alt="parameterization" width="50%"/>
