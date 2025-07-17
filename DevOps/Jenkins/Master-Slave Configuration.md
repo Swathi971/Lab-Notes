@@ -144,5 +144,14 @@ Labels- prod
 
 ![img_32.png](img_32.png)
 
+![img.png](img.png)
 
+we are sucessfully connected node-1:
+![img_33.png](img_33.png)
+
+Connecting to slave-2:
+launch another instance called slave-2
+
+create another node:
+![img_34.png](img_34.png)
 
