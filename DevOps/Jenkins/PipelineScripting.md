@@ -37,13 +37,22 @@ If this works, the issue is likely one of the following:
 * Jenkins does not have internet access
 * Jenkins user lacks SSH key / credentials (if repo is private)
 
-Go to Jenkins-> Buil now-console output- success 
+##### Trigger the Jenkins Pipeline
+* Go to Jenkins Dashboard
+* Select your pipeline job (e.g., test1-pipeline)
+* Click Build Now
+* Once the build finishes, click on the build number (e.g., #1)
+* Click Console Output
+You should see: 
 ![img_1.png](img_1.png)
+This means the Jenkins pipeline successfully:
+* Checked out the development branch
+* Executed the code (as defined in the pipeline stages)
 ___
 This is the manual method but can’t change the git branch every time. 
 So, what we can do is: 
 
-First, we need to push the code which is in VS-> added the Jenkinsfile –commit- sync changes
+First, we need to push the code which is in Visual Studio-> added the Jenkinsfile –commit- sync changes
 ![img_3.png](img_3.png)
 
 Now when go to GitHub, Jenkinsfile will be there in swathi branch. 

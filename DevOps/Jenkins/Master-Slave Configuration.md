@@ -148,10 +148,54 @@ Labels- prod
 
 we are sucessfully connected node-1:
 ![img_33.png](img_33.png)
+![img_35.png](img_35.png)
 
 Connecting to slave-2:
 launch another instance called slave-2
 
 create another node:
 ![img_34.png](img_34.png)
+![img_36.png](img_36.png)
+![img_37.png](img_37.png)
+![img_38.png](img_38.png)
+
+now see logs:
+![img_39.png](img_39.png)
+sucessfully connected to stage node.
+
+change the configuration in prod node:
+![img_40.png](img_40.png)
+
+now we will create freestyle project:
+Configure:
+![img_41.png](img_41.png)
+![img_42.png](img_42.png)
+Build now:
+![img_43.png](img_43.png)
+
+Connectivity establishes from master to slave via remoting.jar:
+![img_44.png](img_44.png)
+
+prod has ran in workspace:
+![img_45.png](img_45.png)
+---
+create project-stage:
+![img_46.png](img_46.png)
+![img_47.png](img_47.png)
+
+Apply- save -build now
+
+now go to stage environment:
+![img_48.png](img_48.png)
+Now got to jenkins-> console output of stage job-> slave-2 and public Ip address of slave-2 wil; be there:
+![img_49.png](img_49.png)
+
+Now go to master environment:
+![img_50.png](img_50.png)
+Workspace is not created - because we have not scheduled any job in master node instead  
+
+I scheduled the jobs in respected slave nodes whether it is stage or prod. 
+
+
+
 
