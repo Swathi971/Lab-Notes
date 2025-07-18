@@ -21,7 +21,7 @@ pipeline {
 ##### 3. Jenkins Setup:
 * Go to Jenkins Dashboard → New Item Enter item name: test1-pipeline → Select: Pipeline → Click OK
 * Scroll to Pipeline → Definition: Pipeline script → Paste the above script → Click Apply → Save → Click Build Now
-<img src=".github/images/img_33.png" alt="elastic load balancer" width="60%"/>
+<img src=".github/images/img_33.png" alt="pipelinescriptin" width="60%"/>
 
 ##### 4. Error: Git Clone Failed
 I encountered the following error: ❌ Error in cloning repository
@@ -43,8 +43,8 @@ If this works, the issue is likely one of the following:
 * Click Build Now
 * Once the build finishes, click on the build number (e.g., #1)
 * Click Console Output
-You should see: 
-![img_1.png](img_1.png)
+You should see:
+<img src=".github/images/img_51.png" alt="pipelinescripting" width="60%"/>
 This means the Jenkins pipeline successfully:
 * Checked out the development branch
 * Executed the code (as defined in the pipeline stages)
