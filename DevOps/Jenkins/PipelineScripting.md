@@ -24,7 +24,10 @@ pipeline {
 <img src=".github/images/img_33.png" alt="pipelinescriptin" width="60%"/>
 
 ##### 4. Error: Git Clone Failed
-I encountered the following error: ❌ Error in cloning repository
+I encountered the following error: 
+```commandline
+❌ Error in cloning repository
+```
 Click build now-> click on the failed build and select console output.
 
 ##### 5. Manual Clone (Troubleshooting Step):
@@ -45,6 +48,7 @@ If this works, the issue is likely one of the following:
 * Click Console Output
 You should see:
 <img src=".github/images/img_51.png" alt="pipelinescripting" width="60%"/>
+
 This means the Jenkins pipeline successfully:
 * Checked out the development branch
 * Executed the code (as defined in the pipeline stages)
