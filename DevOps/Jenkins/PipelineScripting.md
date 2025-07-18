@@ -49,21 +49,55 @@ This means the Jenkins pipeline successfully:
 * Checked out the development branch
 * Executed the code (as defined in the pipeline stages)
 ___
-This is the manual method but can’t change the git branch every time. 
-So, what we can do is: 
+### Automating Jenkins Pipeline with GitHub Branch (No Manual Branch Switch)
+#### Use a Pipeline Project with Jenkinsfile from GitHub
+##### Step 1: Push Jenkinsfile to swathi Branch
+* Open Visual Studio Code
+* Add your Jenkinsfile under a folder (e.g., jenkins/Jenkinsfile)
+* Stage → Commit → Sync Changes
+Now your Jenkinsfile is in the swathi branch on GitHub
+<img src=".github/images/img_52.png" alt="pipelinescripting" width="60%"/>
+<img src=".github/images/img_56.png" alt="pipelinescripting" width="60%"/>
 
-First, we need to push the code which is in Visual Studio-> added the Jenkinsfile –commit- sync changes
-![img_3.png](img_3.png)
+##### Step 2: Configure Jenkins Pipeline Job
+* Go to Jenkins → New Item → Name it (e.g., test-pipeline) → Choose Pipeline → OK
 
-Now when go to GitHub, Jenkinsfile will be there in swathi branch. 
-![img_4.png](img_4.png)
+##### Step 3: Configure Git Repository and Jenkinsfile
+* Scroll down to the Pipeline section
+* Select: Pipeline script from SCM
+* SCM: Git
+* Repository URL:
+```commandline
+https://github.com/Swathi971/demo.git
+```
+<img src=".github/images/img_53.png" alt="pipelinescripting" width="60%"/>
 
-Go to configure-> pipeline script->pipeline script from SCM-> SCM-Git-> Copy and paste the repository URL-> Branch specifier- swathi-> Script path- go to jenkinsfile in swathi branch and copy the script path and paste it here jenkins/Jenkinsfile- apply-save
-![img_2.png](img_2.png)
+* Branch Specifier:
+```commandline
+*/swathi
+```
+* Script path(path to Jenkinsfile inside the repo):
+```commandline
+jenkins/Jenkinsfile
+```
+Make sure this path matches the actual location in your GitHub repo.
+<img src=".github/images/img_54.png" alt="pipelinescripting" width="60%"/>
+* Click Apply → Save
 
-![img_5.png](img_5.png)
+##### Step 4: Trigger Build
+* Click Build Now → Go to Console Output
+* If configured correctly, Jenkins will:
+    * Checkout the swathi branch to read the Jenkinsfile 
+    * Inside the Jenkinsfile, it will checkout the development branch for the actual application code
+<img src=".github/images/img_55.png" alt="pipelinescripting" width="60%"/>
+______________________
 
-![img_6.png](img_6.png)
+
+
+
+
+
+
 
 I am running the pipelines but there is no proper structuring means I have no idea that what is happening in which stages: 
 Go to dashboard-> manage Jenkins-> Plugins-available plugins and type- pipeline stage view- click it and install- go back to top page
