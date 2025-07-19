@@ -174,10 +174,10 @@ Build now:
 ![img_43.png](img_43.png)
 
 Connectivity establishes from master to slave via remoting.jar:
-![img_44.png](img_44.png)
+![img_1.png](img_1.png)
 
 prod has ran in workspace:
-![img_45.png](img_45.png)
+
 ---
 create project-stage:
 ![img_46.png](img_46.png)
@@ -196,6 +196,39 @@ Workspace is not created - because we have not scheduled any job in master node 
 
 I scheduled the jobs in respected slave nodes whether it is stage or prod. 
 
+Now create pipeline script: test1
+```
+pipeline {
+    agent {
+        label "prod"
+    tools{
+        maven 'maven'
+        jdk 'java-11'
+    }
+
+    stages {
+        stage('git-checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Swathi971/trail.git'
+            }
+        }
+
+        stage('compile') {
+            steps {
+                sh 'mvn compile'
+            }
+        }
+
+        stage('build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+    }
+}
+```
+![img_2.png](img_2.png)
 
 
-
+it is building on prod node:
+![img_3.png](img_3.png)

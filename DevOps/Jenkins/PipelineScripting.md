@@ -124,17 +124,10 @@ You’ll see the Console Output for that specific stage
 <img src=".github/images/img_59.png" alt="pipelinescripting" width="60%"/>
 
 ---
-
- [Created the new repo called trail -> Creating new folder called jenkins-> creating the jenkinsfile inside the folder in VS code 
-https://github.com/Swathi971/trail 
-
-Copy the code from Jenkinsfile which is in https://github.com/ManojKRISHNAPPA/Project-movie-app/tree/main]
-
+#### Java Maven Project – Jenkins Pipeline Setup Guide
 ![img_10.png](img_10.png)
- All these are gotten it from Maven life cycle:
-[Introduction to the Build Lifecycle – Maven](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
-##### Jenkinsfile
+##### Step 1: Jenkinsfile in GitHub
 ```commandline
 pipeline {
     agent any
@@ -160,20 +153,45 @@ pipeline {
     }
 }
 ```
-Now we will create a new pipeline:
-Project-1-pipeline-OK-> Pipeline script from SCM-> SCM- Git-> Branch specifier- main-> Script path-> Jenkins/JenkinsFile-> Apply- save.
+##### Step 2: Create a New Pipeline in Jenkins
+* Go to Jenkins Dashboard → Click New Item → Enter name:Project-1 → Select Pipeline → Click OK
+* In Pipeline Configuration:
+    * Choose: Pipeline script from SCM
+    * SCM: Git 
+    * Repository URL: https://github.com/Swathi971/trail.git
+    * Branch Specifier: main
+    * Script Path: Jenkins/JenkinsFile
+* Click Apply → Save
+* Click Build now
 ![img_11.png](img_11.png)
-Here I got the error, so I cloned to trail branch manually in terminal.
+
 ![img_12.png](img_12.png)
 
-Click Build now:
+
 ![img_13.png](img_13.png)
-Errors: mvn file is not here
-![img_14.png](img_14.png)
- Install maven:
-Dashboard-> manage jenkins-> tools- maven Installation- name-maven- apply save. 
+
+##### Step 3: Error – mvn Not Found
+Install Maven in Jenkins:
+* Dashboard → Manage Jenkins → Tools
+* Under Maven:
+    * Click Add Maven 
+    * Name: maven 
+    * Select: Install automatically 
+    * Choose a Maven version (e.g., 3.8.6)
+    * Click Apply → Save
+
+![img_14.png](img_14.png) 
 ![img_15.png](img_15.png)
 
+##### Step 4: Java Version Error (Running in Java 17, Need Java 11)
+Install Java 11 (Adoptium):
+
+Maven plugin must be installed before managing Java tools.
+* Dashboard → Manage Jenkins → Manage Plugins 
+* Go to Available Plugins 
+* Search: Eclipse Temurin installer
+
+✅ Check it → Click Install without restart
 So, I must show that I am using maven in this pipeline; for that we have one option called tools section. Here I have mentioned that I am using maven tool in this pipeline (VS code)- commit message from vs code to Github:
 ![img_17.png](img_17.png)
 
