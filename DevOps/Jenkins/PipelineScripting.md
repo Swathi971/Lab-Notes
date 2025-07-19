@@ -95,6 +95,7 @@ Make sure this path matches the actual location in your GitHub repo.
     * Inside the Jenkinsfile, it will checkout the development branch for the actual application code
 <img src=".github/images/img_55.png" alt="pipelinescripting" width="60%"/>
 ---
+
 #### Visualize Jenkins Pipeline stages clearly using the Pipeline Stage View plugin
 When running pipelines, it's hard to understand:
 * Which stage is currently running
