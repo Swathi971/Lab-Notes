@@ -1,7 +1,7 @@
 ### Jenkins Pipeline: Checkout the Development Branch and Execute Code
 #### How to checkout specific branch:
 ##### 1. Objective:
-I want to checkout the development branch (even though the Jenkinsfile is pushed(from VS code) to the swathi branch) and execute the code from development using a Jenkins pipeline.
+I want to checkout the development branch and execute the code from development using a Jenkins pipeline.
 
 ##### 2. Jenkins Pipeline Script:
 ##### Jenkinsfile
@@ -94,24 +94,32 @@ Make sure this path matches the actual location in your GitHub repo.
     * Checkout the swathi branch to read the Jenkinsfile 
     * Inside the Jenkinsfile, it will checkout the development branch for the actual application code
 <img src=".github/images/img_55.png" alt="pipelinescripting" width="60%"/>
-______________________
+---
+#### Visualize Jenkins Pipeline stages clearly using the Pipeline Stage View plugin
+When running pipelines, it's hard to understand:
+* Which stage is currently running
+* What each stage is doing
+* Where the pipeline failed (if it did)
 
+##### Step 1: Install Plugin
+Go to Jenkins Dashboard → Click Manage Jenkins → Manage Plugins → Select the Available tab → Search for Pipeline Stage View → Check the box → Click Install → Go back to top page
+<img src=".github/images/img_57.png" alt="pipelinescripting" width="60%"/>
 
+##### Step 2: Use the Plugin in Your Pipeline Job
+* Go to your pipeline job (e.g., test1-pipeline)
+* Run the pipeline by clicking Build Now
+* You will now see a Stage View section
+<img src=".github/images/img_58.png" alt="pipelinescripting" width="60%"/>
+This shows:
+* Each stage as a box (e.g., Git Checkout, Compile, Build)
+* Real-time status (e.g., In Progress, Passed, Failed)
+* Execution time per stage
 
+##### Step 3: View Detailed Logs for Each Stage
+* Click on any stage name (like Git Checkout)
+You’ll see the Console Output for that specific stage
+<img src=".github/images/img_59.png" alt="pipelinescripting" width="60%"/>
 
-
-
-
-
-I am running the pipelines but there is no proper structuring means I have no idea that what is happening in which stages: 
-Go to dashboard-> manage Jenkins-> Plugins-available plugins and type- pipeline stage view- click it and install- go back to top page
-![img_7.png](img_7.png)
-
- Go to test1:
-![img_8.png](img_8.png)
-
-Click on logs in git checkout-> we can see the logs. 
-![img_9.png](img_9.png)
 ---
 
  [Created the new repo called trail -> Creating new folder called jenkins-> creating the jenkinsfile inside the folder in VS code 
