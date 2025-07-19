@@ -94,8 +94,8 @@ Make sure this path matches the actual location in your GitHub repo.
     * Checkout the swathi branch to read the Jenkinsfile 
     * Inside the Jenkinsfile, it will checkout the development branch for the actual application code
 <img src=".github/images/img_55.png" alt="pipelinescripting" width="60%"/>
----
 
+---
 #### Visualize Jenkins Pipeline stages clearly using the Pipeline Stage View plugin
 When running pipelines, it's hard to understand:
 * Which stage is currently running
@@ -104,6 +104,7 @@ When running pipelines, it's hard to understand:
 
 ##### Step 1: Install Plugin
 Go to Jenkins Dashboard → Click Manage Jenkins → Manage Plugins → Select the Available tab → Search for Pipeline Stage View → Check the box → Click Install → Go back to top page
+
 <img src=".github/images/img_57.png" alt="pipelinescripting" width="60%"/>
 
 ##### Step 2: Use the Plugin in Your Pipeline Job
@@ -111,6 +112,7 @@ Go to Jenkins Dashboard → Click Manage Jenkins → Manage Plugins → Select t
 * Run the pipeline by clicking Build Now
 * You will now see a Stage View section
 <img src=".github/images/img_58.png" alt="pipelinescripting" width="60%"/>
+
 This shows:
 * Each stage as a box (e.g., Git Checkout, Compile, Build)
 * Real-time status (e.g., In Progress, Passed, Failed)
