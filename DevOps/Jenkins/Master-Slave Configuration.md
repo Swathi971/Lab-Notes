@@ -179,13 +179,18 @@ Now see logs:
 <img src=".github/images/img_77.png" alt="project" width="50%"/>
 Successfully connected to stage node.
 
+
 Change the configuration in prod node:
 
 <img src=".github/images/img_78.png" alt="project" width="50%"/>
 
 Now we will create freestyle project:
+
 Configure:
+
 ![img_41.png](img_41.png)
+<img src=".github/images/img_79.png" alt="project" width="50%"/>
+
 ![img_42.png](img_42.png)
 Build now:
 ![img_43.png](img_43.png)
