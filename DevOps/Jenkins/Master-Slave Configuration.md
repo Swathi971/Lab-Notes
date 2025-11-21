@@ -90,7 +90,7 @@ Press O -> cursor come to new line with insert-> then paste it; I have mentioned
 ```
 [root@master ~]#  ssh root@54.242.215.195 
 ```
-<img src=".github/images/img_61.png" alt="project" width="70%"/>
+<img src=".github/images/img_61.png" alt="project" width="50%"/>
 Now I am able to connect from the master node to the slave node. 
 
 ##### Connecting to slave-2 node:
@@ -142,10 +142,12 @@ Labels- prod
 * Credentials- add- jenkins
 <img src=".github/images/img_65.png" alt="project" width="50%"/>
 
-![img_28.png](img_28.png)
-![img_29.png](img_29.png)
+<img src=".github/images/img_66.png" alt="project" width="30%"/>
 
-![img_32.png](img_32.png)
+<img src=".github/images/img_67.png" alt="project" width="50%"/>
+
+<img src=".github/images/img_68.png" alt="project" width="50%"/>
+
 
 ![img.png](img.png)
 
