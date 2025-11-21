@@ -155,10 +155,11 @@ Labels- prod
 
 we are sucessfully connected node-1:
 
-![img_33.png](img_33.png)
-<img src=".github/images/img_33.png" alt="project" width="50%"/>
+<img src=".github/images/img_70.png" alt="project" width="50%"/>
 
-![img_35.png](img_35.png)
+<img src=".github/images/img_71.png" alt="project" width="50%"/>
+
+<img src=".github/images/img_72.png" alt="project" width="50%"/>
 
 Connecting to slave-2:
 launch another instance called slave-2
