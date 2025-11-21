@@ -167,15 +167,18 @@ launch another instance called slave-2
 create another node:
 
 <img src=".github/images/img_73.png" alt="project" width="50%"/>
-![img_36.png](img_36.png)
-![img_37.png](img_37.png)
-![img_38.png](img_38.png)
 
-now see logs:
+<img src=".github/images/img_74.png" alt="project" width="50%"/>
+
+<img src=".github/images/img_75.png" alt="project" width="50%"/>
+
+<img src=".github/images/img_76.png" alt="project" width="50%"/>
+
+Now see logs:
 ![img_39.png](img_39.png)
-sucessfully connected to stage node.
+Successfully connected to stage node.
 
-change the configuration in prod node:
+Change the configuration in prod node:
 ![img_40.png](img_40.png)
 
 now we will create freestyle project:
