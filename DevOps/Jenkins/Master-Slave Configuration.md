@@ -119,21 +119,21 @@ Now master node is connected to slave-2 node.
 * Go to manage jenkins → Nodes → click on new node → Node name: Node-1 → click on 
 permanent agent and create
 
-<img src=".github/images/img_62.png" alt="project" width="70%"/>
+<img src=".github/images/img_62.png" alt="project" width="50%"/>
 
 *  Number of executors - 1
 
 *  Remote root directory 
      * We have to give slave server path. Here, jenkins related information stored here
 
-<img src=".github/images/img_63.png" alt="project" width="70%"/>
+<img src=".github/images/img_63.png" alt="project" width="50%"/>
  So, on that remote path jenkins folder created. we can see build details, workspace, etc..,
 
 *  Labels - 
 Labels- prod 
 
-* Usage – use this node as much as possible. 
-![img_31.png](img_31.png)
+* Usage – use this node as much as possible.
+<img src=".github/images/img_64.png" alt="project" width="50%"/>
 
 *  Launch method -  Launch agents via SSH
 
