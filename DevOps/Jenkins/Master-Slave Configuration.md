@@ -192,6 +192,7 @@ Configure:
 <img src=".github/images/img_79.png" alt="project" width="50%"/>
 
 ![img_42.png](img_42.png)
+<img src=".github/images/img_80.png" alt="project" width="50%"/>
 Build now:
 ![img_43.png](img_43.png)
 
