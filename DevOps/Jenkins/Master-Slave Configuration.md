@@ -165,7 +165,8 @@ Connecting to slave-2:
 launch another instance called slave-2
 
 create another node:
-![img_34.png](img_34.png)
+
+<img src=".github/images/img_73.png" alt="project" width="50%"/>
 ![img_36.png](img_36.png)
 ![img_37.png](img_37.png)
 ![img_38.png](img_38.png)
