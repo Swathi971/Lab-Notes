@@ -148,9 +148,10 @@ Labels- prod
 
 <img src=".github/images/img_68.png" alt="project" width="50%"/>
 
-<img src=".github/images/img.png" alt="project" width="50%"/>
-
-![img.png](img.png)
+`````
+![img.png](img.png) 
+`````
+<img src=".github/images/img_69.png" alt="project" width="50%"/>
 
 we are sucessfully connected node-1:
 
