@@ -90,7 +90,7 @@ Press O -> cursor come to new line with insert-> then paste it; I have mentioned
 ```
 [root@master ~]#  ssh root@54.242.215.195 
 ```
-![img_26.png](img_26.png)
+<img src=".github/images/img_61.png" alt="project" width="70%"/>
 Now I am able to connect from the master node to the slave node. 
 
 ##### Connecting to slave-2 node:
@@ -118,13 +118,15 @@ Now master node is connected to slave-2 node.
 ##### Now we will build the connectivity: 
 * Go to manage jenkins → Nodes → click on new node → Node name: Node-1 → click on 
 permanent agent and create
-![img_22.png](img_22.png)
+
+<img src=".github/images/img_62.png" alt="project" width="70%"/>
 
 *  Number of executors - 1
 
 *  Remote root directory 
      * We have to give slave server path. Here, jenkins related information stored here
-![img_30.png](img_30.png)
+
+<img src=".github/images/img_63.png" alt="project" width="70%"/>
  So, on that remote path jenkins folder created. we can see build details, workspace, etc..,
 
 *  Labels - 
