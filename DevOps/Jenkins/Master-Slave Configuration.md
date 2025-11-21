@@ -175,10 +175,12 @@ create another node:
 <img src=".github/images/img_76.png" alt="project" width="50%"/>
 
 Now see logs:
+
 <img src=".github/images/img_77.png" alt="project" width="50%"/>
 Successfully connected to stage node.
 
 Change the configuration in prod node:
+
 <img src=".github/images/img_78.png" alt="project" width="50%"/>
 
 Now we will create freestyle project:
