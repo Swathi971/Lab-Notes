@@ -193,7 +193,8 @@ Configure:
 <img src=".github/images/img_80.png" alt="project" width="50%"/>
 
 Build now:
-![img_43.png](img_43.png)
+
+<img src=".github/images/img_81.png" alt="project" width="50%"/>
 
 Connectivity establishes from master to slave via remoting.jar:
 ![img_1.png](img_1.png)
