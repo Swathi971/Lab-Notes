@@ -140,7 +140,8 @@ Labels- prod
 * Host- public Ip of slave node. 
 
 * Credentials- add- jenkins
-<img src=".github/images/img_65.png" alt="project" width="70%"/>
+<img src=".github/images/img_65.png" alt="project" width="50%"/>
+
 ![img_28.png](img_28.png)
 ![img_29.png](img_29.png)
 
