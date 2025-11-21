@@ -232,3 +232,46 @@ pipeline {
 
 it is building on prod node:
 ![img_3.png](img_3.png)
+
+go to console output, it shows some error:
+![img_4.png](img_4.png)
+
+install git in slave-1:
+```commandline
+[root@slave-1 ~]# yum install git -y
+```
+
+again build:
+go to console output- Sucess
+
+Now go to slave-1 environment:
+![img_5.png](img_5.png)
+
+Let’s say I won't define anything: 
+Create test2 project:
+![img_6.png](img_6.png)
+
+Click on schedule a build for test2:
+![img_7.png](img_7.png)
+
+Go to console output:
+![img_8.png](img_8.png)
+
+go to built-in node:
+Configuration:
+![img_9.png](img_9.png)
+
+Now chnage the configuration:
+![img_44.png](img_44.png)
+
+again build the test2:
+![img_45.png](img_45.png)
+now it is building on stage
+
+create test3:
+![img_52.png](img_52.png)
+
+![img_51.png](img_51.png)
+
+it is going to stage node why?
+![img_53.png](img_53.png)
