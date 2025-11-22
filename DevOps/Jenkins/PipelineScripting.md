@@ -61,8 +61,8 @@ ___
 * Add your Jenkinsfile under a folder (e.g., jenkins/Jenkinsfile)
 * Stage → Commit → Sync Changes
 Now your Jenkinsfile is in the swathi branch on GitHub
-<img src=".github/images/img_52.png" alt="pipelinescripting" width="60%"/>
-<img src=".github/images/img_56.png" alt="pipelinescripting" width="60%"/>
+<img src=".github/images/img_52.png" alt="pipelinescripting" width="50%"/>
+<img src=".github/images/img_56.png" alt="pipelinescripting" width="50%"/>
 
 ##### Step 2: Configure Jenkins Pipeline Job
 * Go to Jenkins → New Item → Name it (e.g., test-pipeline) → Choose Pipeline → OK
