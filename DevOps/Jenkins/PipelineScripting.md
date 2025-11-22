@@ -22,7 +22,7 @@ pipeline {
 * Go to Jenkins Dashboard → New Item Enter item name: test1-pipeline → Select: Pipeline → Click OK
 * Scroll to Pipeline → Definition: Pipeline script → Paste the above script → Click Apply → Save → Click Build Now
 
-<img src=".github/images/img_33.png" alt="pipelinescripting" width="60%"/>
+<img src=".github/images/img_33.png" alt="pipelinescripting" width="50%"/>
 
 ##### 4. Error: Git Clone Failed
 I encountered the following error: 
