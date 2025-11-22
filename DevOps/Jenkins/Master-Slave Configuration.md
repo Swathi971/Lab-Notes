@@ -198,24 +198,33 @@ Build now:
 
 Connectivity establishes from master to slave via remoting.jar:
 
-<img src=".github/images/img_82.png" alt="project" width="50%"/>
+<img src=".github/images/img_82.png" alt="project" width="30%"/>
 
 prod has ran in workspace:
 
 ---
 create project-stage:
-![img_46.png](img_46.png)
-![img_47.png](img_47.png)
+
+<img src=".github/images/img_83.png" alt="project" width="50%"/>
+
+<img src=".github/images/img_84.png" alt="project" width="50%"/>
+
 
 Apply- save -build now
 
 now go to stage environment:
-![img_48.png](img_48.png)
+
+<img src=".github/images/img_85.png" alt="project" width="30%"/>
+
 Now got to jenkins-> console output of stage job-> slave-2 and public Ip address of slave-2 wil; be there:
-![img_49.png](img_49.png)
+
+<img src=".github/images/img_86.png" alt="project" width="50%"/>
+
 
 Now go to master environment:
-![img_50.png](img_50.png)
+
+<img src=".github/images/img_87.png" alt="project" width="50%"/>
+
 Workspace is not created - because we have not scheduled any job in master node instead  
 
 I scheduled the jobs in respected slave nodes whether it is stage or prod. 
@@ -251,14 +260,19 @@ pipeline {
     }
 }
 ```
-![img_2.png](img_2.png)
+
+<img src=".github/images/img_88.png" alt="project" width="50%"/>
+
 
 
 it is building on prod node:
-![img_3.png](img_3.png)
+
+<img src=".github/images/img_89.png" alt="project" width="50%"/>
+
 
 go to console output, it shows some error:
-![img_4.png](img_4.png)
+
+<img src=".github/images/img_90.png" alt="project" width="50%"/>
 
 install git in slave-1:
 ```commandline
@@ -269,33 +283,43 @@ again build:
 go to console output- Sucess
 
 Now go to slave-1 environment:
-![img_5.png](img_5.png)
+
+<img src=".github/images/img_91.png" alt="project" width="30%"/>
 
 Let’s say I won't define anything: 
 Create test2 project:
-![img_6.png](img_6.png)
+
+<img src=".github/images/img_92.png" alt="project" width="50%"/>
 
 Click on schedule a build for test2:
-![img_7.png](img_7.png)
+
+<img src=".github/images/img_93.png" alt="project" width="50%"/>
 
 Go to console output:
-![img_8.png](img_8.png)
+
+<img src=".github/images/img_94.png" alt="project" width="50%"/>
 
 go to built-in node:
 Configuration:
-![img_9.png](img_9.png)
+
+<img src=".github/images/img_95.png" alt="project" width="50%"/>
 
 Now chnage the configuration:
-![img_44.png](img_44.png)
+
+<img src=".github/images/img_96.png" alt="project" width="50%"/>
 
 again build the test2:
-![img_45.png](img_45.png)
+
+<img src=".github/images/img_97.png" alt="project" width="50%"/>
+
 now it is building on stage
 
 create test3:
-![img_52.png](img_52.png)
 
-![img_51.png](img_51.png)
+<img src=".github/images/img_98.png" alt="project" width="50%"/>
+
+<img src=".github/images/img_99.png" alt="project" width="50%"/>
 
 it is going to stage node why?
-![img_53.png](img_53.png)
+
+<img src=".github/images/img_100.png" alt="project" width="50%"/>
