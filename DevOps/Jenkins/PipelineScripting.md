@@ -195,32 +195,39 @@ Maven plugin must be installed before managing Java tools.
 
 ✅ Check it → Click Install without restart
 So, I must show that I am using maven in this pipeline; for that we have one option called tools section. Here I have mentioned that I am using maven tool in this pipeline (VS code)- commit message from vs code to Github:
-![img_17.png](img_17.png)
+
+<img src=".github/images/img_31.png" alt="pipelinescripting" width="60%"/>
 
 Build now:
  i am running this entire code in java-17. But I need java-11.
-![img_18.png](img_18.png)
 
- Install Java:
+<img src=".github/images/img_32.png" alt="pipelinescripting" width="60%"/>
+
+Install Java:
 
 To install any Java products, maven plugin should be installed. So go to plugins- available plugins-search eclipse- eclipse tumerin installer-it provides an installer for JDK
-![img_20.png](img_20.png)
+
+<img src=".github/images/img_34.png" alt="pipelinescripting" width="60%"/>
 
 Go back to tools-> add jdk- name java-11-install  automatically- adoptioum.net-look for java 11
 Apply-save 
-![img_16.png](img_16.png)
+
+<img src=".github/images/img_35.png" alt="pipelinescripting" width="60%"/>
 
 Now we must tell jenkins that use java –11:
-![img_19.png](img_19.png)
+
+<img src=".github/images/img_36.png" alt="pipelinescripting" width="60%"/>
 
 Error because there was not pom.xml:
-![img_21.png](img_21.png)
+
+<img src=".github/images/img_37.png" alt="pipelinescripting" width="60%"/>
 
 Build success:
-![img_25.png](img_25.png)
+<img src=".github/images/img_38.png" alt="pipelinescripting" width="60%"/>
 
-![img_23.png](img_23.png)
-![img_24.png](img_24.png)
+<img src=".github/images/img_39.png" alt="pipelinescripting" width="60%"/>
+
+<img src=".github/images/img_40.png" alt="pipelinescripting" width="60%"/>
 
 pom.xml:
 ```commandline
