@@ -112,7 +112,7 @@ Go to Jenkins Dashboard → Click Manage Jenkins → Manage Plugins → Select t
 * Go to your pipeline job (e.g., test1-pipeline)
 * Run the pipeline by clicking Build Now
 * You will now see a Stage View section
-<img src=".github/images/img_58.png" alt="pipelinescripting" width="60%"/>
+<img src=".github/images/img_58.png" alt="pipelinescripting" width="40%"/>
 
 This shows:
 * Each stage as a box (e.g., Git Checkout, Compile, Build)
@@ -126,7 +126,7 @@ You’ll see the Console Output for that specific stage
 
 ---
 #### Java Maven Project – Jenkins Pipeline Setup Guide
-![img_10.png](img_10.png)
+<img src=".github/images/img_22.png" alt="pipelinescripting" width="40%"/>
 
 ##### Step 1: Jenkinsfile in GitHub
 ```commandline
