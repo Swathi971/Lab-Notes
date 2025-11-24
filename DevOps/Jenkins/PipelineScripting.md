@@ -165,11 +165,11 @@ pipeline {
 * Click Apply → Save
 * Click Build now
 
-<img src=".github/images/img_26.png" alt="pipelinescripting" width="40%"/>
+<img src=".github/images/img_26.png" alt="pipelinescripting" width="60%"/>
 
 <img src=".github/images/img_27.png" alt="pipelinescripting" width="60%"/>
 
-![img_13.png](img_13.png)
+<img src=".github/images/img_28.png" alt="pipelinescripting" width="40%"/>
 
 ##### Step 3: Error – mvn Not Found
 Install Maven in Jenkins:
@@ -181,8 +181,9 @@ Install Maven in Jenkins:
     * Choose a Maven version (e.g., 3.8.6)
     * Click Apply → Save
 
-![img_14.png](img_14.png) 
-![img_15.png](img_15.png)
+<img src=".github/images/img_29.png" alt="pipelinescripting" width="60%"/>
+
+<img src=".github/images/img_30.png" alt="pipelinescripting" width="60%"/>
 
 ##### Step 4: Java Version Error (Running in Java 17, Need Java 11)
 Install Java 11 (Adoptium):
