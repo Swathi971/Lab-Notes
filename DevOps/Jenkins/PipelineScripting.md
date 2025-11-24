@@ -164,10 +164,10 @@ pipeline {
     * Script Path: Jenkins/JenkinsFile
 * Click Apply → Save
 * Click Build now
-![img_11.png](img_11.png)
 
-![img_12.png](img_12.png)
+<img src=".github/images/img_26.png" alt="pipelinescripting" width="40%"/>
 
+<img src=".github/images/img_27.png" alt="pipelinescripting" width="60%"/>
 
 ![img_13.png](img_13.png)
 
