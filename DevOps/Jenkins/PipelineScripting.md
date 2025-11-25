@@ -126,6 +126,9 @@ You’ll see the Console Output for that specific stage
 
 ---
 #### Java Maven Project – Jenkins Pipeline Setup Guide
+##### Pipeline Overview
+I am using Maven and Java in my Jenkins pipeline.
+I write the Jenkinsfile in VS Code, push the code to GitHub, and then use Build Now in Jenkins to execute the pipeline.
 <img src=".github/images/img_22.png" alt="pipelinescripting" width="40%"/>
 
 ##### Step 1: Jenkinsfile in GitHub
@@ -186,7 +189,10 @@ Install Maven in Jenkins:
 <img src=".github/images/img_30.png" alt="pipelinescripting" width="60%"/>
 
 ##### Step 4: Java Version Error (Running in Java 17, Need Java 11)
+<img src=".github/images/img_32.png" alt="pipelinescripting" width="60%"/>
+
 Install Java 11 (Adoptium):
+<img src=".github/images/img_34.png" alt="pipelinescripting" width="60%"/>
 
 Maven plugin must be installed before managing Java tools.
 * Dashboard → Manage Jenkins → Manage Plugins 
@@ -196,21 +202,24 @@ Maven plugin must be installed before managing Java tools.
 ✅ Check it → Click Install without restart
 So, I must show that I am using maven in this pipeline; for that we have one option called tools section. Here I have mentioned that I am using maven tool in this pipeline (VS code)- commit message from vs code to Github:
 
+#####  Step 5: Adding Java 11 in Jenkins Tools
+
+After installing the plugin:
+* Go to: Manage Jenkins → Tools
+* Under JDK installations:
+   * Click Add JDK 
+   * Name: java-11 
+   * Check: Install automatically 
+   * Vendor: Adoptium / Temurin 
+   * Select Java 11 
+* Save
+
+Now Jenkins knows how to download and use Java 11 automatically.
+##### Step 6: Updating Jenkinsfile to Use Java 11
 <img src=".github/images/img_31.png" alt="pipelinescripting" width="60%"/>
+This tells Jenkins to use Maven tool and Java 11 that I configured earlier.
 
-Build now:
- i am running this entire code in java-17. But I need java-11.
 
-<img src=".github/images/img_32.png" alt="pipelinescripting" width="60%"/>
-
-Install Java:
-
-To install any Java products, maven plugin should be installed. So go to plugins- available plugins-search eclipse- eclipse tumerin installer-it provides an installer for JDK
-
-<img src=".github/images/img_34.png" alt="pipelinescripting" width="60%"/>
-
-Go back to tools-> add jdk- name java-11-install  automatically- adoptioum.net-look for java 11
-Apply-save 
 
 <img src=".github/images/img_35.png" alt="pipelinescripting" width="60%"/>
 
