@@ -288,6 +288,7 @@ pom.xml:
 * After adding pom.xml:
 
 ✔️ Build succeeded
+
 ✔️ Maven commands (mvn compile, mvn package) worked correctly.
 <img src=".github/images/img_38.png" alt="pipelinescripting" width="60%"/>
 
