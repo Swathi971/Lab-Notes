@@ -129,6 +129,7 @@ You’ll see the Console Output for that specific stage
 ##### Pipeline Overview
 I am using Maven and Java in my Jenkins pipeline.
 I write the Jenkinsfile in VS Code, push the code to GitHub, and then use Build Now in Jenkins to execute the pipeline.
+
 <img src=".github/images/img_22.png" alt="pipelinescripting" width="40%"/>
 
 ##### Step 1: Jenkinsfile in GitHub
@@ -176,6 +177,7 @@ pipeline {
 
 ##### Step 3: Error – mvn Not Found
 <img src=".github/images/img_29.png" alt="pipelinescripting" width="60%"/>
+
 Install Maven in Jenkins:
 * Dashboard → Manage Jenkins → Tools
 * Under Maven:
@@ -185,9 +187,9 @@ Install Maven in Jenkins:
     * Choose a Maven version (e.g., 3.8.6)
     * Click Apply → Save
 
-<img src=".github/images/img_31.png" alt="pipelinescripting" width="60%"/>
-
 <img src=".github/images/img_30.png" alt="pipelinescripting" width="60%"/>
+
+<img src=".github/images/img_31.png" alt="pipelinescripting" width="60%"/>
 
 ##### Step 4: Java Version Error (Running in Java 17, Need Java 11)
 <img src=".github/images/img_32.png" alt="pipelinescripting" width="60%"/>
