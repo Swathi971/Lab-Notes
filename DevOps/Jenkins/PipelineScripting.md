@@ -175,6 +175,7 @@ pipeline {
 <img src=".github/images/img_28.png" alt="pipelinescripting" width="40%"/>
 
 ##### Step 3: Error – mvn Not Found
+<img src=".github/images/img_29.png" alt="pipelinescripting" width="60%"/>
 Install Maven in Jenkins:
 * Dashboard → Manage Jenkins → Tools
 * Under Maven:
@@ -184,7 +185,7 @@ Install Maven in Jenkins:
     * Choose a Maven version (e.g., 3.8.6)
     * Click Apply → Save
 
-<img src=".github/images/img_29.png" alt="pipelinescripting" width="60%"/>
+<img src=".github/images/img_31.png" alt="pipelinescripting" width="60%"/>
 
 <img src=".github/images/img_30.png" alt="pipelinescripting" width="60%"/>
 
@@ -216,7 +217,6 @@ After installing the plugin:
 
 Now Jenkins knows how to download and use Java 11 automatically.
 ##### Step 6: Updating Jenkinsfile to Use Java 11
-<img src=".github/images/img_31.png" alt="pipelinescripting" width="60%"/>
 This tells Jenkins to use Maven tool and Java 11 that I configured earlier.
 
 
