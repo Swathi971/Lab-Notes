@@ -223,20 +223,18 @@ After installing the plugin:
 Now Jenkins knows how to download and use Java 11 automatically.
 
 ##### Step 6: Updating Jenkinsfile to Use Java 11
-This tells Jenkins to use Maven tool and Java 11 that I configured earlier.
 * Now we must tell jenkins that use java –11:
 
 <img src=".github/images/img_36.png" alt="pipelinescripting" width="60%"/>
 
-Error because there was not pom.xml:
+This tells Jenkins to use Maven tool and Java 11 that I configured earlier.
+
+##### Step 7: Error Faced: “pom.xml not found”
+* Because my GitHub repository did not have a pom.xml file.
 
 <img src=".github/images/img_37.png" alt="pipelinescripting" width="60%"/>
 
-Build success:
-<img src=".github/images/img_38.png" alt="pipelinescripting" width="60%"/>
-
-<img src=".github/images/img_39.png" alt="pipelinescripting" width="60%"/>
-
+* I added a pom.xml file to my project and pushed it again to GitHub.
 <img src=".github/images/img_40.png" alt="pipelinescripting" width="60%"/>
 
 pom.xml:
@@ -287,6 +285,20 @@ pom.xml:
 
 </project>
 ```
+* After adding pom.xml:
+✔️ Build succeeded
+✔️ Maven commands (mvn compile, mvn package) worked correctly.
+<img src=".github/images/img_38.png" alt="pipelinescripting" width="60%"/>
+
+<img src=".github/images/img_39.png" alt="pipelinescripting" width="60%"/>
+
+##### Step 8: Final Status
+
+* Jenkins is running Java 11. 
+* Maven project builds successfully. 
+* Pipeline executes all stages without errors.
+
+
  
 
 
