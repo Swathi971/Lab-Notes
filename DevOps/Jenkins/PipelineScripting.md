@@ -195,6 +195,7 @@ Install Maven in Jenkins:
 <img src=".github/images/img_32.png" alt="pipelinescripting" width="60%"/>
 
 Install Java 11 (Adoptium):
+
 <img src=".github/images/img_34.png" alt="pipelinescripting" width="60%"/>
 
 Maven plugin must be installed before managing Java tools.
