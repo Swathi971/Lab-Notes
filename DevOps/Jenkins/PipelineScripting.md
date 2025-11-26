@@ -194,7 +194,7 @@ Install Maven in Jenkins:
 ##### Step 4: Java Version Error (Running in Java 17, Need Java 11)
 <img src=".github/images/img_32.png" alt="pipelinescripting" width="60%"/>
 
-Install Java 11 (Adoptium):
+* Install Java 11 (Adoptium):
 
 <img src=".github/images/img_34.png" alt="pipelinescripting" width="60%"/>
 
@@ -218,15 +218,13 @@ After installing the plugin:
    * Select Java 11 
 * Save
 
-Now Jenkins knows how to download and use Java 11 automatically.
-##### Step 6: Updating Jenkinsfile to Use Java 11
-This tells Jenkins to use Maven tool and Java 11 that I configured earlier.
-
-
-
 <img src=".github/images/img_35.png" alt="pipelinescripting" width="60%"/>
 
-Now we must tell jenkins that use java –11:
+Now Jenkins knows how to download and use Java 11 automatically.
+
+##### Step 6: Updating Jenkinsfile to Use Java 11
+This tells Jenkins to use Maven tool and Java 11 that I configured earlier.
+* Now we must tell jenkins that use java –11:
 
 <img src=".github/images/img_36.png" alt="pipelinescripting" width="60%"/>
 
