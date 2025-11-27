@@ -35,6 +35,7 @@ Example: Pull NGINX image
 [root@Docker-server ~]# docker pull nginx
 ```
 Why NGINX image?
+
 NGINX is a web application, so if we run this container and expose port 80, we get the NGINX home page.
 
 Check all images:
