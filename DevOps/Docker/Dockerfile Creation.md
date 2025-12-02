@@ -69,6 +69,14 @@ You will see:
 CONTAINER ID   IMAGE      COMMAND                  CREATED       STATUS        PORTS                     NAMES
 88cfba392ac9   myimage    "apache2ctl -D FORE…"   5 sec ago     Up 5 sec      0.0.0.0:9003->80/tcp      c3
 ```
+COMMAND → "apache2ctl -D FOREGROUND"
+
+👉 This shows Apache is running as the main process
+
+👉 Means CMD worked correctly
+
+👉 The server starts automatically — you do NOT need to start it manually
+
 **6. Test in Browser**
 
 ✔ Static Register Form loads successfully.
