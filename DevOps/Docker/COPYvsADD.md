@@ -108,6 +108,9 @@ apache-tomcat-11.0.14/    (folder extracted automatically)
 
 ##### Use COPY for normal file copy (best practice).
 Use ADD only when you need:
+
 ✔ to download from a URL
+
 ✔ to extract a tar/zip file automatically
+
 When ADD is used with a .tar.gz file, Docker automatically extracts it and creates the folder inside the container (e.g., ```apache-tomcat-11.0.14/```).
