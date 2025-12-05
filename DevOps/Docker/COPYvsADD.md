@@ -32,7 +32,7 @@ root@ee9667eaf:/opt# ls
 ```commandline
 apache-tomcat-11.0.14.tar.gz
 ```
-ADD <URL> /opt downloads the file from external internet directly into the container.
+```ADD <URL> /opt``` downloads the file from external internet directly into the container.
 
 **2. Scenario 2: Using COPY to Copy Local Tomcat Tar File (Local Source Only)**
 
