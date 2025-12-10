@@ -95,8 +95,10 @@ docker run ubuntu sleep 5
 _Meaning_: 
 * Run a container from ubuntu image 
 * Execute the command sleep 5 (pause for 5 seconds) 
+* Shows: CMD overrides default Ubuntu CMD.
 
 _What happened_: 
+
 Unable to find image 'ubuntu:latest' locally
 
 → You did not have the image downloaded. 
@@ -106,5 +108,88 @@ So Docker automatically downloads it:
 Pulling from library/ubuntu 
 
 Once the image is downloaded, Docker runs it and exits after 5 seconds.
+OS images have no background process, so container exits after command.
+```
+[root@Docker-server ~]# docker images 
+IMAGE           ID             DISK USAGE   CONTENT SIZE   EXTRA 
+
+ubuntu:latest   c35e29c94501        119MB         31.7MB    U 
+root@Dockerserver:~# docker ps -a 
+CONTAINER ID   IMAGE     COMMAND     CREATED         STATUS                     PORTS     NAMES 
+7d196506a0af   ubuntu    "sleep 5"   5 minutes ago   Exited (0) 3 minutes ago             beautiful_hertz
+```
+
+**Scenario 2: Running ubuntu with and without commands**
+
+##### With command:
+```
+docker run -it ubuntu sleep 10
+```
+You are still running sleep 10, so terminal has nothing to show. 
+
+_Why no logs?_ 
+* sleep 5 does not print anything. 
+* So your terminal appears blank → this is normal. 
+* After 5 seconds the container exits. 
+
+```
+root@Dockerserver:~# docker ps -a 
+CONTAINER ID   IMAGE     COMMAND     CREATED         STATUS                     PORTS     NAMES 
+7d196506a0af   ubuntu    "sleep 10"   3 minutes ago   Exited (0) 3 minutes ago             beautiful_hertz 
+5585ad478b6f   ubuntu    "sleep 5"   5 minutes ago   Exited (0) 5 minutes ago             musing_banzai
+``` 
+* These containers ran successfully
+* They completed their task (sleep 5 and sleep 10)
+* They exited normally (exit code 0) 
+
+##### Without command:
+```commandline
+root@Dockerserver:~# docker run -it ubuntu
+root@43facd690e52:/#
+```
+You enter interactive shell because default CMD of ubuntu is:
+```commandline
+/bin/bash
+```
+```root@43facd690e52:/#``` This is the container’s bash shell. 
+
+**Scenario 3: Dockerfile with only CMD**
+```commandline
+root@Docker-server :~# vi Dockerfile
+FROM ubuntu
+CMD ["sleep", "5"]
+root@Docker-server :~# docker build  -t test:v1 . 
+root@Docker-server :~# docker images 
+Image will be there
+```
+##### Result:
+```
+docker run -it test:v1
+```
+Runs sleep 5.
+
+→ CMD runs by default
+→ Container exits after 5 seconds.
+
+```
+root@Docker-server :~# docker ps  –a 
+We can see /bin/sh -c sleep 5 
+```
+**Scenario 4: Dockerfile with ENTRYPOINT**
+```commandline
+root@Docker-server :~# vi Dockerfile-entry  
+FROM ubuntu 
+ENTRYPOINT [“sleep”]  
+root@Docker-server :~# docker build  -t entry-image:v1  -f  Dockerfile-entry . 
+root@Docker-server :~# docker images
+```
+##### Runtime:
+```commandline
+root@Docker-server :~# docker run  -it <image id> 10
+root@Docker-server :~# docker ps  -a
+```
+
+
+
 
 
