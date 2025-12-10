@@ -34,11 +34,8 @@ Docker runs ENTRYPOINT, arguments must be passed manually.
 | Format                  | exec/json preferred | exec/json preferred                           |
 
 #### 4. SCENARIO-WISE
-##### Scenario 1: Running Ubuntu with command override
 ```
 [root@Docker-server ~]# vi script.sh 
-```
-```
 #!/bin/bash
 echo << EOF
 "=========================================================="
@@ -87,7 +84,27 @@ dockerVersion=$(docker -v | awk '/version/ {print $3}' | tr -d ",")
 
 echo "The Docker status is $dockerStatus"
 echo "The Docker version is $dockerVersion"
+[root@Docker-server ~]# sh script.sh 
+[root@Docker-server ~]# ls 
+Script.sh  snap
 ```
+##### Scenario 1: Running Ubuntu with command override
+```commandline
+docker run ubuntu sleep 5
+```
+_Meaning_: 
+* Run a container from ubuntu image 
+* Execute the command sleep 5 (pause for 5 seconds) 
 
+_What happened_: 
+Unable to find image 'ubuntu:latest' locally
+
+→ You did not have the image downloaded. 
+
+So Docker automatically downloads it: 
+
+Pulling from library/ubuntu 
+
+Once the image is downloaded, Docker runs it and exits after 5 seconds.
 
 
