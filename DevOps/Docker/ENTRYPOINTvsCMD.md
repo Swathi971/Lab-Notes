@@ -196,7 +196,7 @@ sleep 10
 ```commandline
 root@Docker-server :~# vi Dockerfile-test 
 FROM almalinux:8 
-ENTRYPOINT [“yum”,”-y”,”install”]
+ENTRYPOINT [“yum”, "-y", "install"]
 root@Docker-server :~# docker build -t test:v1 -f Dockerfile-test .
 ```
 ##### If you run with no args:
@@ -212,8 +212,8 @@ root@Docker-server :~# docker run -it test:v1 git
 ```commandline
 root@Docker-server:~# docker ps -a 
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS                          PORTS     NAMES 
-24171860b906   test:v2        "yum -y install git"     2 minutes ago    Exited (0) About a minute ago             competent_bouman 
-ad73250d109d   test:v2        "yum -y install"         2 minutes ago    Exited (2) 2 minutes ago                  laughing_mcclintock 
+24171860b906   test:v1       "yum -y install git"     2 minutes ago    Exited (0) About a minute ago             competent_bouman 
+ad73250d109d   test:v1       "yum -y install"         2 minutes ago    Exited (2) 2 minutes ago                  laughing_mcclintock 
 ```
 * ENTRYPOINT cannot be removed. 
 * You cannot override sleep. 
