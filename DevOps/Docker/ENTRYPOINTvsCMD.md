@@ -192,29 +192,6 @@ root@Docker-server :~# docker run -it entry-image:v1 10
 root@Docker-server :~# docker ps -a
 sleep 10
 ```
-**_OR_**
-```commandline
-root@Docker-server :~# vi Dockerfile-test 
-FROM almalinux:8 
-ENTRYPOINT [“yum”, "-y", "install"]
-root@Docker-server :~# docker build -t test:v1 -f Dockerfile-test .
-```
-##### If you run with no args:
-```commandline
-root@Docker-server :~# docker run -it test:v1
-```
-Errors appears
- 
-##### If you run with args:
-```
-root@Docker-server :~# docker run -it test:v1 git
-```
-```commandline
-root@Docker-server:~# docker ps -a 
-CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS                          PORTS     NAMES 
-24171860b906   test:v1       "yum -y install git"     2 minutes ago    Exited (0) About a minute ago             competent_bouman 
-ad73250d109d   test:v1       "yum -y install"         2 minutes ago    Exited (2) 2 minutes ago                  laughing_mcclintock 
-```
 * ENTRYPOINT cannot be removed. 
 * You cannot override sleep. 
 * You can override the arguments (duration).
@@ -245,9 +222,92 @@ So CMD gets overridden, and your git installation command does NOT run.
 ➡️ CMD = default command that will be replaced if user gives anything at ‘docker run’ 
 
 **Scenario 6: ENTRYPOINT appending**
+```commandline
+root@Docker-server :~# vi Dockerfile-test 
+FROM almalinux:8 
+ENTRYPOINT [“yum”, "-y", "install"]
+root@Docker-server :~# docker build -t test:v1 -f Dockerfile-test .
+```
+##### If you run with no args:
+```commandline
+root@Docker-server :~# docker run -it test:v1
+```
+Errors appears
+ 
+##### If you run with args:
+```
+root@Docker-server :~# docker run -it test:v1 git
+```
+##### Result:
+```commandline
+root@Docker-server:~# docker ps -a 
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS                          PORTS     NAMES 
+24171860b906   test:v1       "yum -y install git"     2 minutes ago    Exited (0) About a minute ago             competent_bouman 
+ad73250d109d   test:v1       "yum -y install"         2 minutes ago    Exited (2) 2 minutes ago                  laughing_mcclintock 
+```
+##### If multiple arguments:
+````commandline
+docker run -it test:v1 git tree httpd
+````
+##### Result:
+```commandline
+yum -y install git tree httpd
+```
+✔ ENTRYPOINT stays
 
+✔ Arguments are appended, not replaced
 
+**Scenario 7: ENTRYPOINT + CMD combination**
+```commandline
+root@Docker-server :~# vi Dockerfile-test 
+FROM almalinux:8
+ENTRYPOINT ["yum", "-y", "install"]
+CMD ["git"]
+root@Docker-server :~# docker build -t test:v3 -f Dockerfile-test . 
+```
+##### If run with no args:
+```commandline
+docker run -it test:v3
+```
+##### Runs:
+```commandline
+yum -y install git
+```
+→ CMD acts as default argument.
 
+##### If overridden at runtime:
+```commandline
+docker run -it test:v3 jenkins
+```
+CMD is replaced → new args:
+```commandline
+yum -y install jenkins
+```
+✔ CMD overrides
+
+✔ ENTRYPOINT stays fixed
+
+**8. Final Key Points**
+##### CMD
+* Default command 
+* Can be overridden 
+* One per Dockerfile 
+* Replaced entirely at runtime
+
+##### ENTRYPOINT
+* Main fixed executable 
+* Cannot be overridden 
+* Runtime arguments append to ENTRYPOINT 
+
+##### ENTRYPOINT + CMD
+* ENTRYPOINT is the executable 
+* CMD provides default arguments 
+* Runtime arguments override CMD
+
+##### Best Practices
+* Use ENTRYPOINT when container behaves like a command (```sleep```, ```python```, ```nginx```). 
+* Use CMD for default values. 
+* Use both for scripts needing parameters.
 
 
 
