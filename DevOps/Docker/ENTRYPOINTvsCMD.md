@@ -113,7 +113,6 @@ OS images have no background process, so container exits after command.
 ```
 [root@Docker-server ~]# docker images 
 IMAGE           ID             DISK USAGE   CONTENT SIZE   EXTRA 
-
 ubuntu:latest   c35e29c94501        119MB         31.7MB    U 
 root@Dockerserver:~# docker ps -a 
 CONTAINER ID   IMAGE     COMMAND     CREATED         STATUS                     PORTS     NAMES 
@@ -129,9 +128,9 @@ docker run -it ubuntu sleep 10
 You are still running sleep 10, so terminal has nothing to show. 
 
 _**Why no logs?**_ 
-* sleep 5 does not print anything. 
+* sleep 10 does not print anything. 
 * So your terminal appears blank → this is normal. 
-* After 5 seconds the container exits. 
+* After 10 seconds the container exits. 
 
 ```
 root@Dockerserver:~# docker ps -a 
@@ -170,6 +169,7 @@ docker run -it test:v1
 Runs sleep 5.
 
 → CMD runs by default
+
 → Container exits after 5 seconds.
 
 ```
