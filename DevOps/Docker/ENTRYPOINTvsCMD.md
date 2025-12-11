@@ -35,6 +35,7 @@ Docker runs ENTRYPOINT, arguments must be passed manually.
 
 #### 4. SCENARIO-WISE
 Create an instance – admin server – choose Ubuntu AMI – t2.medium – 30GB
+###### But I took t2.micro- 10 GB
 ```
 [root@Docker-server ~]# vi script.sh 
 #!/bin/bash
