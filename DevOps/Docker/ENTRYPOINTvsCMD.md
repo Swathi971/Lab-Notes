@@ -108,6 +108,7 @@ So Docker automatically downloads it:
 Pulling from library/ubuntu 
 
 Once the image is downloaded, Docker runs it and exits after 5 seconds.
+
 OS images have no background process, so container exits after command.
 ```
 [root@Docker-server ~]# docker images 
