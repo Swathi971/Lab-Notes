@@ -1,4 +1,4 @@
-### Docker ENTRYPOINT vs CMD
+## Docker ENTRYPOINT vs CMD
 #### 1. Basic Definitions
 ##### CMD
 * CMD provides default arguments/commands to run when the container starts. 
@@ -88,16 +88,16 @@ echo "The Docker version is $dockerVersion"
 [root@Docker-server ~]# ls 
 Script.sh  snap
 ```
-##### Scenario 1: Running Ubuntu with command override
+**Scenario 1: Running Ubuntu with command override**
 ```commandline
 docker run ubuntu sleep 5
 ```
-_Meaning_: 
+**_Meaning_**: 
 * Run a container from ubuntu image 
 * Execute the command sleep 5 (pause for 5 seconds) 
 * Shows: CMD overrides default Ubuntu CMD.
 
-_What happened_: 
+_**What happened**_: 
 
 Unable to find image 'ubuntu:latest' locally
 
@@ -127,7 +127,7 @@ docker run -it ubuntu sleep 10
 ```
 You are still running sleep 10, so terminal has nothing to show. 
 
-_Why no logs?_ 
+_**Why no logs?**_ 
 * sleep 5 does not print anything. 
 * So your terminal appears blank → this is normal. 
 * After 5 seconds the container exits. 
@@ -192,6 +192,29 @@ root@Docker-server :~# docker run -it entry-image:v1 10
 root@Docker-server :~# docker ps -a
 sleep 10
 ```
+**_OR_**
+```commandline
+root@Docker-server :~# vi Dockerfile-test 
+FROM almalinux:8 
+ENTRYPOINT [“yum”,”-y”,”install”]
+root@Docker-server :~# docker build -t test:v1 -f Dockerfile-test .
+```
+##### If you run with no args:
+```commandline
+root@Docker-server :~# docker run -it test:v1
+```
+Errors appears
+ 
+##### If you run with args:
+```
+root@Docker-server :~# docker run -it test:v1 git
+```
+```commandline
+root@Docker-server:~# docker ps -a 
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS                          PORTS     NAMES 
+24171860b906   test:v2        "yum -y install git"     2 minutes ago    Exited (0) About a minute ago             competent_bouman 
+ad73250d109d   test:v2        "yum -y install"         2 minutes ago    Exited (2) 2 minutes ago                  laughing_mcclintock 
+```
 * ENTRYPOINT cannot be removed. 
 * You cannot override sleep. 
 * You can override the arguments (duration).
@@ -209,18 +232,20 @@ root@Docker-server :~# docker images
 root@Docker-server :~# docker run -it installation:v1
 ```
 It runs only this CMD: ```apt-get -y install git ```
+
 But Ubuntu base image does not have an updated package index, so apt-get does not know about “git”. 
 ##### If you run: 
 ```commandline
 docker run -it installation:v2 tree 
 ```
-Docker replaces CMD with your new argument: tree 
+Docker replaces CMD with your new argument: ```tree``` 
 
 So CMD gets overridden, and your git installation command does NOT run. 
 
 ➡️ CMD = default command that will be replaced if user gives anything at ‘docker run’ 
 
 **Scenario 6: ENTRYPOINT appending**
+
 
 
 
