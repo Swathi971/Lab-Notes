@@ -158,7 +158,7 @@ You enter interactive shell because default CMD of ubuntu is:
 root@Docker-server :~# vi Dockerfile
 FROM ubuntu
 CMD ["sleep", "5"]
-root@Docker-server :~# docker build  -t test:v1 . 
+root@Docker-server :~# docker build -t test:v1 . 
 root@Docker-server :~# docker images 
 Image will be there
 ```
@@ -180,14 +180,49 @@ We can see /bin/sh -c sleep 5
 root@Docker-server :~# vi Dockerfile-entry  
 FROM ubuntu 
 ENTRYPOINT [“sleep”]  
-root@Docker-server :~# docker build  -t entry-image:v1  -f  Dockerfile-entry . 
+root@Docker-server :~# docker build -t entry-image:v1 -f Dockerfile-entry . 
 root@Docker-server :~# docker images
 ```
 ##### Runtime:
 ```commandline
-root@Docker-server :~# docker run  -it <image id> 10
-root@Docker-server :~# docker ps  -a
+root@Docker-server :~# docker run -it entry-image:v1 10
 ```
+##### Result:
+```commandline
+root@Docker-server :~# docker ps -a
+sleep 10
+```
+* ENTRYPOINT cannot be removed. 
+* You cannot override sleep. 
+* You can override the arguments (duration).
+
+**Scenario 5: CMD override behaviour**
+```commandline
+root@Docker-server :~# vi Dockerfile-install 
+FROM ubuntu 
+CMD [“apt-get”, “-y”,”install”,”git”]  
+root@Docker-server :~# docker -t build installation:v1 -f Dockerfile-install . 
+root@Docker-server :~# docker images
+```
+##### When you run the container: 
+```
+root@Docker-server :~# docker run -it installation:v1
+```
+It runs only this CMD: ```apt-get -y install git ```
+But Ubuntu base image does not have an updated package index, so apt-get does not know about “git”. 
+##### If you run: 
+```commandline
+docker run -it installation:v2 tree 
+```
+Docker replaces CMD with your new argument: tree 
+
+So CMD gets overridden, and your git installation command does NOT run. 
+
+➡️ CMD = default command that will be replaced if user gives anything at ‘docker run’ 
+
+**Scenario 6: ENTRYPOINT appending**
+
+
 
 
 
