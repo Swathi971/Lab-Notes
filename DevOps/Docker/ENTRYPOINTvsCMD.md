@@ -34,6 +34,7 @@ Docker runs ENTRYPOINT, arguments must be passed manually.
 | Format                  | exec/json preferred | exec/json preferred                           |
 
 #### 4. SCENARIO-WISE
+Create an instance – admin server – choose Ubuntu AMI – t2.medium – 30GB
 ```
 [root@Docker-server ~]# vi script.sh 
 #!/bin/bash
